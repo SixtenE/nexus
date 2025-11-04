@@ -4,9 +4,9 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional, Dict, Any, List
 
-from backend.temporal.client import get_client
-from backend.temporal.workflows import PropertyValuationWorkflow
-from backend.temporal.model_types import WorkflowInput
+from temporal.client import get_client
+from temporal.workflows import PropertyValuationWorkflow
+from temporal.model_types import WorkflowInput
 
 router = APIRouter(prefix="/api/temporal", tags=["temporal"])
 
