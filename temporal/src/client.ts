@@ -1,12 +1,14 @@
+import "dotenv/config";
 // @@@SNIPSTART typescript-next-oneclick-client
-import { Client, Connection } from '@temporalio/client';
+import { Client, Connection } from "@temporalio/client";
 
 const client: Client = makeClient();
 
 function makeClient(): Client {
   const connection = Connection.lazy({
-    address: 'localhost:7233',
-    // In production, pass options to configure TLS and other settings.
+    address: process.env.TEMPORAL_ADDRESS,
+    apiKey: process.env.TEMPORAL_API_KEY,
+    tls: true,
   });
   return new Client({ connection });
 }

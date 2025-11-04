@@ -1,127 +1,129 @@
-// @@@SNIPSTART typescript-next-oneclick-page-start
-'use client'
-import Head from 'next/head';
-import React, { useState, useRef } from 'react';
-import { v4 as uuid4 } from 'uuid';
-// @@@SNIPEND
-
-// @@@SNIPSTART typescript-next-oneclick-page-vars
-
-interface ProductProps {
-  product: {
-    id: number;
-    name: string;
-    price: string;
-  };
-}
-
-const products = [
-  {
-    id: 1,
-    name: 'PDF Book',
-    price: '$49',
-  },
-  {
-    id: 2,
-    name: 'Kindle Book',
-    price: '$49',
-  },
-];
-
-type ITEMSTATE = 'NEW' | 'ORDERING' |  'ORDERED' | 'ERROR';
-// @@@SNIPEND
-
-// @@@SNIPSTART typescript-next-oneclick-page-product
-const Product: React.FC<ProductProps> = ({ product }) => {
-  const itemId = product.id;
-  const [state, setState] = useState<ITEMSTATE>('NEW');
-  const [transactionId, setTransactionId] = React.useState(uuid4());
-
-  const buyProduct = () => {
-    setState('ORDERING');
-    fetch('/api/startBuy', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ itemId, transactionId }),
-    })
-      .then(() => {
-        setState('ORDERED');
-      })
-      .catch(() => {
-        setState('ERROR');
-      });
-  };
-
-  const buyStyle = "w-full bg-white hover:bg-blue-200 bg-opacity-75 backdrop-filter backdrop-blur py-2 px-4 rounded-md text-sm font-medium text-gray-900 text-center";
-  const orderingStyle = "w-full bg-yellow-500 bg-opacity-75 backdrop-filter backdrop-blur py-2 px-4 rounded-md text-sm font-medium text-gray-900 text-center";
-  const orderStyle = "w-full bg-green-500 bg-opacity-75 backdrop-filter backdrop-blur py-2 px-4 rounded-md text-sm font-medium text-gray-900 text-center";
-  const errorStyle = "w-full bg-white hover:bg-blue-200 bg-opacity-75 backdrop-filter backdrop-blur py-2 px-4 rounded-md text-sm font-medium text-gray-900 text-center";
+export default async function Page() {
+  const features = [
+    {
+      icon: Building2,
+      title: "Teknisk Analys",
+      description: "Bedömning av energiklass, OVK, radon och renoveringsstatus",
+    },
+    {
+      icon: TrendingUp,
+      title: "Värdeanalys",
+      description:
+        "AI-driven värdering med konfidensintervall baserat på marknadsdata",
+    },
+    {
+      icon: Shield,
+      title: "Riskbedömning",
+      description: "Identifiering av ekonomiska och tekniska riskfaktorer",
+    },
+    {
+      icon: Sparkles,
+      title: "AI-insikter",
+      description:
+        "Naturligt språk-förklaringar av värdering och rekommendationer",
+    },
+  ];
 
   return (
-    <div key={product.id} className="relative group">
-      <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
-        <h3>{product.name}</h3>
-        <p>{product.price}</p>
-      </div>
-      <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden bg-gray-100">
-        <div className="flex items-end p-4" aria-hidden="true">
-          {
-            {
-              NEW:     ( <button onClick={buyProduct} className={buyStyle}> Buy Now </button> ),
-              ORDERING: ( <div className={orderingStyle}>Orderering</div> ),
-              ORDERED: ( <div className={orderStyle}>Ordered</div> ),
-              ERROR:   ( <button onClick={buyProduct} className={errorStyle}>Error! Click to Retry </button> ),
-            }[state]
-          }
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <section className="relative overflow-hidden bg-gradient-primary">
+        <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]" />
+        <div className="container mx-auto px-4 py-24 relative">
+          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+              AI-driven Fastighetsvärdering
+            </h1>
+            <p className="text-xl md:text-2xl mb-12 opacity-90">
+              Få en komplett analys av din fastighet baserat på tekniska,
+              ekonomiska och miljömässiga faktorer
+            </p>
+            <div className="flex justify-center">
+              <PropertySearch onSearch={handleSearch} />
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  );
-};
-// @@@SNIPEND
+      </section>
 
-// @@@SNIPSTART typescript-next-oneclick-page-productlist
-const ProductList: React.FC = () => {
-  return (
-    <div className="bg-white">
-      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 md:grid-cols-4">
-          {products.map((product) => (
-            <Product product={product} key={product.id} />
+      {/* Features Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            Avancerad Fastighetsanalys
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Vårt AI-system analyserar över 50 datapunkter för att ge dig den
+            mest kompletta bilden av din fastighet
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {features.map((feature, index) => (
+            <Card
+              key={index}
+              className="shadow-md hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <CardContent className="p-6 text-center">
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <feature.icon className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  {feature.title}
+                </h3>
+                <p className="text-sm text-muted-foreground">
+                  {feature.description}
+                </p>
+              </CardContent>
+            </Card>
           ))}
         </div>
-      </div>
-    </div>
-  );
-};
-// @@@SNIPEND
+      </section>
 
-// @@@SNIPSTART typescript-next-oneclick-page-home
-const Home: React.FC = () => {
-  return (
-    <div className="pt-8 pb-80 sm:pt-12 sm:pb-40 lg:pt-24 lg:pb-48">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
-        <Head>
-          <title>Temporal + Next.js One-Click Purchase</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <header className="relative overflow-hidden">
-          <div className="sm:max-w-lg">
-            <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-              Temporal.io + Next.js One Click Purchase
-            </h1>
-            <p className="mt-4 text-xl text-gray-500">
-              Click on the item to buy it now.
+      {/* Demo Section */}
+      <section className="bg-muted py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Prova Demo-analyser
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Se exempel på hur vårt system analyserar olika fastigheter
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button
+                size="lg"
+                onClick={() =>
+                  navigate("/dashboard", {
+                    state: { propertyData: mockPropertyData },
+                  })
+                }
+                className="text-lg px-8"
+              >
+                Stockholm - Hög Poäng
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={() =>
+                  navigate("/dashboard", {
+                    state: { propertyData: mockPropertyData2 },
+                  })
+                }
+                className="text-lg px-8"
+              >
+                Göteborg - Medel Poäng
+              </Button>
+            </div>
           </div>
-        </header>
-        <ProductList />
-      </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-border bg-card py-8">
+        <div className="container mx-auto px-4 text-center text-muted-foreground">
+          <p>AI-driven Fastighetsvärdering © 2024 - Demo Version</p>
+        </div>
+      </footer>
     </div>
   );
-};
-
-export default Home;
-// @@@SNIPEND
+}

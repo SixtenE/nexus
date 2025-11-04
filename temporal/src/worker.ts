@@ -1,21 +1,24 @@
+import "dotenv/config";
 // @@@SNIPSTART typescript-next-oneclick-worker
-import { NativeConnection, Worker } from '@temporalio/worker';
-import * as activities from './activities';
-import { TASK_QUEUE_NAME } from './shared';
+import { NativeConnection, Worker } from "@temporalio/worker";
+import * as activities from "./activities";
+import { TASK_QUEUE_NAME } from "./shared";
 
 run().catch((err) => console.log(err));
 
 async function run() {
   const connection = await NativeConnection.connect({
-    address: 'localhost:7233',
-    // In production, pass options to configure TLS and other settings.
+    address: process.env.TEMPORAL_ADDRESS,
+    apiKey: process.env.TEMPORAL_API_KEY,
+    tls: true,
   });
   try {
     const worker = await Worker.create({
       connection,
-      workflowsPath: require.resolve('./workflows'),
+      workflowsPath: require.resolve("./workflows"),
       activities,
-      taskQueue: TASK_QUEUE_NAME
+      taskQueue: TASK_QUEUE_NAME,
+      namespace: "default",
     });
     await worker.run();
   } finally {
