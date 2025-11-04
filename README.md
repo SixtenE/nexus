@@ -17,3 +17,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Click to buy an item.
 
 Review the Terminal output to verify that the process completed.
+
+## Pages
+
+    http://localhost:3000
+    http://localhost:3000/dashboard
+    http://localhost:3000/pulse
+    http://localhost:3000/realform
+
+## With FastAPI python backend
+
+    http://localhost:3000/data/stockholm
+
+## With Temporal python backend
+
+    http://localhost:3000/temporal
+
