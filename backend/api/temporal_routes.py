@@ -3,12 +3,7 @@ from __future__ import annotations
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional, Dict, Any, List
-from temporalio.client import WorkflowHandle
-from . import typing as _unused  # keep package import stable if your app expects api package
-from temporalio.common import SearchAttributeKey
-import asyncio
 
-from temporalio.client import Client
 from backend.temporal.client import get_client
 from backend.temporal.workflows import PropertyValuationWorkflow
 from backend.temporal.model_types import WorkflowInput
