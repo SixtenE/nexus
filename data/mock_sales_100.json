@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "sale-001",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31567758159283,
+      "lon": 18.067491792669834
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3534982,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-21T09:55:56.318571",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "022",
+    "floor": 3,
+    "livingArea": 69.9,
+    "monthlyFee": {
+      "amount": 4807,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 1",
+    "constructionSpan": "2011-1975",
+    "cooperativeRegistrationNumber": "769660-5508"
+  },
+  {
+    "id": "sale-002",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.322786451781596,
+      "lon": 18.06128370295174
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3394137,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-14T09:55:56.318613",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "031",
+    "floor": 1,
+    "livingArea": 64.4,
+    "monthlyFee": {
+      "amount": 4141,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 1",
+    "constructionSpan": "2007-2006",
+    "cooperativeRegistrationNumber": "769621-6694"
+  },
+  {
+    "id": "sale-003",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.32488002425378,
+      "lon": 18.05253309438409
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3531900,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-29T09:55:56.318636",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "122",
+    "floor": 1,
+    "livingArea": 73.2,
+    "monthlyFee": {
+      "amount": 4931,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 1",
+    "constructionSpan": "1992-1997",
+    "cooperativeRegistrationNumber": "769693-1092"
+  },
+  {
+    "id": "sale-004",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32314972085892,
+      "lon": 18.053097297778937
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4228481,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-03T09:55:56.318663",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "064",
+    "floor": 1,
+    "livingArea": 78.5,
+    "monthlyFee": {
+      "amount": 4777,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 1",
+    "constructionSpan": "2015-2018",
+    "cooperativeRegistrationNumber": "769696-3311"
+  },
+  {
+    "id": "sale-005",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31264020786644,
+      "lon": 18.054075722797474
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3185486,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-11-19T09:55:56.318696",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "152",
+    "floor": 1,
+    "livingArea": 64.3,
+    "monthlyFee": {
+      "amount": 4485,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 1",
+    "constructionSpan": "1982-2004",
+    "cooperativeRegistrationNumber": "769635-7143"
+  },
+  {
+    "id": "sale-006",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.315592499998495,
+      "lon": 18.064519735547098
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3924280,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-15T09:55:56.318716",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "133",
+    "floor": 2,
+    "livingArea": 79.2,
+    "monthlyFee": {
+      "amount": 5138,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 2",
+    "constructionSpan": "1988-1995",
+    "cooperativeRegistrationNumber": "769627-8681"
+  },
+  {
+    "id": "sale-007",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.316812284773,
+      "lon": 18.05864095357298
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3302772,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-04-17T09:55:56.318738",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "094",
+    "floor": 4,
+    "livingArea": 66.0,
+    "monthlyFee": {
+      "amount": 4336,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 2",
+    "constructionSpan": "2014-1998",
+    "cooperativeRegistrationNumber": "769617-5505"
+  },
+  {
+    "id": "sale-008",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.327810796252,
+      "lon": 18.054483771596274
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3062026,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-06T09:55:56.318757",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "084",
+    "floor": 5,
+    "livingArea": 60.5,
+    "monthlyFee": {
+      "amount": 4150,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 2",
+    "constructionSpan": "2004-1998",
+    "cooperativeRegistrationNumber": "769672-3554"
+  },
+  {
+    "id": "sale-009",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31744596124152,
+      "lon": 18.051075027566892
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3472566,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-11-17T09:55:56.318774",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 1,
+    "livingArea": 71.2,
+    "monthlyFee": {
+      "amount": 4612,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 2",
+    "constructionSpan": "2000-2016",
+    "cooperativeRegistrationNumber": "769658-5200"
+  },
+  {
+    "id": "sale-010",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.3118233802368,
+      "lon": 18.065661396057898
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3298998,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-08T09:55:56.318790",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "085",
+    "floor": 1,
+    "livingArea": 66.5,
+    "monthlyFee": {
+      "amount": 4144,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 2",
+    "constructionSpan": "1995-1994",
+    "cooperativeRegistrationNumber": "769620-9841"
+  },
+  {
+    "id": "sale-011",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32331216314417,
+      "lon": 18.05984801605316
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3813836,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-16T09:55:56.318807",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "131",
+    "floor": 5,
+    "livingArea": 71.0,
+    "monthlyFee": {
+      "amount": 4591,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 3",
+    "constructionSpan": "1990-2019",
+    "cooperativeRegistrationNumber": "769667-2253"
+  },
+  {
+    "id": "sale-012",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.3250493657254,
+      "lon": 18.053354441176438
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3163407,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-12T09:55:56.318823",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "125",
+    "floor": 3,
+    "livingArea": 62.3,
+    "monthlyFee": {
+      "amount": 3995,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 3",
+    "constructionSpan": "2003-2002",
+    "cooperativeRegistrationNumber": "769683-8783"
+  },
+  {
+    "id": "sale-013",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.31609414501314,
+      "lon": 18.059979664511033
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3772228,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-15T09:55:56.318838",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "151",
+    "floor": 2,
+    "livingArea": 70.6,
+    "monthlyFee": {
+      "amount": 4800,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 3",
+    "constructionSpan": "1990-1992",
+    "cooperativeRegistrationNumber": "769662-6142"
+  },
+  {
+    "id": "sale-014",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.314992231267105,
+      "lon": 18.065597212479698
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3169463,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-19T09:55:56.318854",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "103",
+    "floor": 2,
+    "livingArea": 62.2,
+    "monthlyFee": {
+      "amount": 3926,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 3",
+    "constructionSpan": "1986-1984",
+    "cooperativeRegistrationNumber": "769613-7734"
+  },
+  {
+    "id": "sale-015",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.314635831705566,
+      "lon": 18.06543308649543
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2804377,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-23T09:55:56.318872",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "022",
+    "floor": 2,
+    "livingArea": 56.5,
+    "monthlyFee": {
+      "amount": 3654,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 3",
+    "constructionSpan": "2003-2020",
+    "cooperativeRegistrationNumber": "769630-6486"
+  },
+  {
+    "id": "sale-016",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.31144911387276,
+      "lon": 18.066002844682764
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3422440,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-04-24T09:55:56.318888",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "022",
+    "floor": 4,
+    "livingArea": 69.6,
+    "monthlyFee": {
+      "amount": 4446,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 4",
+    "constructionSpan": "1976-2000",
+    "cooperativeRegistrationNumber": "769616-3136"
+  },
+  {
+    "id": "sale-017",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.31972354192751,
+      "lon": 18.06423661149744
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3064250,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-04-21T09:55:56.318913",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "111",
+    "floor": 2,
+    "livingArea": 62.5,
+    "monthlyFee": {
+      "amount": 3763,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 4",
+    "constructionSpan": "2010-2011",
+    "cooperativeRegistrationNumber": "769618-5224"
+  },
+  {
+    "id": "sale-018",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.318903851768596,
+      "lon": 18.050022198288016
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3924212,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-03-12T09:55:56.318948",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "091",
+    "floor": 4,
+    "livingArea": 77.5,
+    "monthlyFee": {
+      "amount": 5232,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 4",
+    "constructionSpan": "1970-1996",
+    "cooperativeRegistrationNumber": "769641-8378"
+  },
+  {
+    "id": "sale-019",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32985251659338,
+      "lon": 18.06091241755642
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3458682,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-07T09:55:56.318964",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "083",
+    "floor": 3,
+    "livingArea": 66.1,
+    "monthlyFee": {
+      "amount": 4085,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 4",
+    "constructionSpan": "2015-2014",
+    "cooperativeRegistrationNumber": "769666-4493"
+  },
+  {
+    "id": "sale-020",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32975466384135,
+      "lon": 18.053662680617204
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3282401,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-11-09T09:55:56.318979",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "013",
+    "floor": 5,
+    "livingArea": 65.5,
+    "monthlyFee": {
+      "amount": 4082,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 4",
+    "constructionSpan": "1994-2017",
+    "cooperativeRegistrationNumber": "769697-2076"
+  },
+  {
+    "id": "sale-021",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.31568064881336,
+      "lon": 18.051191446904877
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3400393,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-03T09:55:56.318996",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "085",
+    "floor": 5,
+    "livingArea": 66.9,
+    "monthlyFee": {
+      "amount": 4320,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 5",
+    "constructionSpan": "1988-1999",
+    "cooperativeRegistrationNumber": "769688-5409"
+  },
+  {
+    "id": "sale-022",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.32345680062942,
+      "lon": 18.05246171433439
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3882057,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-25T09:55:56.319011",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "095",
+    "floor": 5,
+    "livingArea": 75.9,
+    "monthlyFee": {
+      "amount": 4575,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 5",
+    "constructionSpan": "2013-1991",
+    "cooperativeRegistrationNumber": "769637-8822"
+  },
+  {
+    "id": "sale-023",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.3166822920382,
+      "lon": 18.061955488820832
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3537511,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-03T09:55:56.319028",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "133",
+    "floor": 1,
+    "livingArea": 68.4,
+    "monthlyFee": {
+      "amount": 4484,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 5",
+    "constructionSpan": "1983-1976",
+    "cooperativeRegistrationNumber": "769683-6403"
+  },
+  {
+    "id": "sale-024",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.314779960865124,
+      "lon": 18.0624124469034
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3666873,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-31T09:55:56.319044",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "015",
+    "floor": 4,
+    "livingArea": 69.8,
+    "monthlyFee": {
+      "amount": 4435,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 5",
+    "constructionSpan": "1974-2015",
+    "cooperativeRegistrationNumber": "769660-3671"
+  },
+  {
+    "id": "sale-025",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.31944182052219,
+      "lon": 18.062244187942582
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3039349,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-03T09:55:56.319060",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "032",
+    "floor": 4,
+    "livingArea": 63.3,
+    "monthlyFee": {
+      "amount": 4413,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 5",
+    "constructionSpan": "1997-1982",
+    "cooperativeRegistrationNumber": "769618-6695"
+  },
+  {
+    "id": "sale-026",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32060078221391,
+      "lon": 18.062905302582276
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3623332,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-01T09:55:56.319075",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "042",
+    "floor": 4,
+    "livingArea": 70.3,
+    "monthlyFee": {
+      "amount": 4610,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 6",
+    "constructionSpan": "2014-2016",
+    "cooperativeRegistrationNumber": "769689-4491"
+  },
+  {
+    "id": "sale-027",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31998798216038,
+      "lon": 18.051434506265295
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2849640,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-08T09:55:56.319092",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "115",
+    "floor": 1,
+    "livingArea": 58.9,
+    "monthlyFee": {
+      "amount": 3837,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 6",
+    "constructionSpan": "2000-1989",
+    "cooperativeRegistrationNumber": "769626-7938"
+  },
+  {
+    "id": "sale-028",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32337794559122,
+      "lon": 18.060012163711868
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4070496,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-23T09:55:56.319107",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "151",
+    "floor": 4,
+    "livingArea": 77.8,
+    "monthlyFee": {
+      "amount": 5167,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 6",
+    "constructionSpan": "1999-1980",
+    "cooperativeRegistrationNumber": "769654-1733"
+  },
+  {
+    "id": "sale-029",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32918633961697,
+      "lon": 18.057197865182015
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3923001,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-10T09:55:56.319124",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "011",
+    "floor": 4,
+    "livingArea": 75.7,
+    "monthlyFee": {
+      "amount": 5178,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 6",
+    "constructionSpan": "1981-2004",
+    "cooperativeRegistrationNumber": "769652-4093"
+  },
+  {
+    "id": "sale-030",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.32914163414792,
+      "lon": 18.055590587224675
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3633054,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-11T09:55:56.319147",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "113",
+    "floor": 4,
+    "livingArea": 74.2,
+    "monthlyFee": {
+      "amount": 5073,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 6",
+    "constructionSpan": "1990-1993",
+    "cooperativeRegistrationNumber": "769675-9903"
+  },
+  {
+    "id": "sale-031",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.329343538251365,
+      "lon": 18.056472986320326
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3245970,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-15T09:55:56.319164",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "081",
+    "floor": 3,
+    "livingArea": 61.5,
+    "monthlyFee": {
+      "amount": 3852,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 7",
+    "constructionSpan": "2009-1976",
+    "cooperativeRegistrationNumber": "769674-4241"
+  },
+  {
+    "id": "sale-032",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32344873396766,
+      "lon": 18.05028661264142
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3690670,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-17T09:55:56.319180",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "111",
+    "floor": 1,
+    "livingArea": 76.2,
+    "monthlyFee": {
+      "amount": 5329,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 7",
+    "constructionSpan": "2003-2020",
+    "cooperativeRegistrationNumber": "769688-8140"
+  },
+  {
+    "id": "sale-033",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.3144847816692,
+      "lon": 18.058105221938533
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3194580,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-06T09:55:56.319204",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "072",
+    "floor": 2,
+    "livingArea": 60.0,
+    "monthlyFee": {
+      "amount": 4084,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 7",
+    "constructionSpan": "1996-2007",
+    "cooperativeRegistrationNumber": "769644-8779"
+  },
+  {
+    "id": "sale-034",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.3143119015654,
+      "lon": 18.057931968816593
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3811017,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-16T09:55:56.319228",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "145",
+    "floor": 4,
+    "livingArea": 78.3,
+    "monthlyFee": {
+      "amount": 5010,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 7",
+    "constructionSpan": "2013-1992",
+    "cooperativeRegistrationNumber": "769640-9843"
+  },
+  {
+    "id": "sale-035",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.329226026724335,
+      "lon": 18.063905355012594
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3975525,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-13T09:55:56.319244",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "031",
+    "floor": 5,
+    "livingArea": 73.7,
+    "monthlyFee": {
+      "amount": 4750,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 7",
+    "constructionSpan": "2006-2005",
+    "cooperativeRegistrationNumber": "769613-1726"
+  },
+  {
+    "id": "sale-036",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31155012963808,
+      "lon": 18.059069610061645
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3640135,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-19T09:55:56.319265",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "043",
+    "floor": 1,
+    "livingArea": 70.6,
+    "monthlyFee": {
+      "amount": 4350,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 8",
+    "constructionSpan": "1972-2017",
+    "cooperativeRegistrationNumber": "769625-4524"
+  },
+  {
+    "id": "sale-037",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.31991738158269,
+      "lon": 18.057389967515306
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3692191,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-12T09:55:56.319417",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "101",
+    "floor": 3,
+    "livingArea": 75.7,
+    "monthlyFee": {
+      "amount": 5157,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 8",
+    "constructionSpan": "1987-1999",
+    "cooperativeRegistrationNumber": "769621-2748"
+  },
+  {
+    "id": "sale-038",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32178736399355,
+      "lon": 18.053717515869725
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3088476,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-29T09:55:56.319435",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "041",
+    "floor": 2,
+    "livingArea": 62.7,
+    "monthlyFee": {
+      "amount": 4201,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 8",
+    "constructionSpan": "1996-2010",
+    "cooperativeRegistrationNumber": "769694-4378"
+  },
+  {
+    "id": "sale-039",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32867461287237,
+      "lon": 18.05467881168721
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4035823,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-14T09:55:56.319458",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "132",
+    "floor": 1,
+    "livingArea": 78.2,
+    "monthlyFee": {
+      "amount": 5097,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 8",
+    "constructionSpan": "1993-2000",
+    "cooperativeRegistrationNumber": "769645-4903"
+  },
+  {
+    "id": "sale-040",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.328102340458514,
+      "lon": 18.061815116005693
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4065141,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-02T09:55:56.319486",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "082",
+    "floor": 5,
+    "livingArea": 74.4,
+    "monthlyFee": {
+      "amount": 4709,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 8",
+    "constructionSpan": "1976-1994",
+    "cooperativeRegistrationNumber": "769625-9785"
+  },
+  {
+    "id": "sale-041",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32345986221903,
+      "lon": 18.05246746030369
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3592765,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-23T09:55:56.319513",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "034",
+    "floor": 4,
+    "livingArea": 70.1,
+    "monthlyFee": {
+      "amount": 4718,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 9",
+    "constructionSpan": "1972-1998",
+    "cooperativeRegistrationNumber": "769648-9079"
+  },
+  {
+    "id": "sale-042",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.32611152566412,
+      "lon": 18.055793731279426
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3894080,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-04-05T09:55:56.319530",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "084",
+    "floor": 4,
+    "livingArea": 80.0,
+    "monthlyFee": {
+      "amount": 4865,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 9",
+    "constructionSpan": "1981-2000",
+    "cooperativeRegistrationNumber": "769619-9804"
+  },
+  {
+    "id": "sale-043",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.31205651247048,
+      "lon": 18.058576829957772
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4210820,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-09T09:55:56.319544",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "123",
+    "floor": 5,
+    "livingArea": 79.4,
+    "monthlyFee": {
+      "amount": 5545,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 9",
+    "constructionSpan": "2002-1983",
+    "cooperativeRegistrationNumber": "769620-6846"
+  },
+  {
+    "id": "sale-044",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.31740966635994,
+      "lon": 18.052327571929116
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3624642,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-03T09:55:56.319559",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "152",
+    "floor": 4,
+    "livingArea": 66.9,
+    "monthlyFee": {
+      "amount": 4035,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 9",
+    "constructionSpan": "1980-1986",
+    "cooperativeRegistrationNumber": "769614-3425"
+  },
+  {
+    "id": "sale-045",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.31442399186515,
+      "lon": 18.0596421232152
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3097640,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-03T09:55:56.319575",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "092",
+    "floor": 4,
+    "livingArea": 64.4,
+    "monthlyFee": {
+      "amount": 4399,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 9",
+    "constructionSpan": "1997-1983",
+    "cooperativeRegistrationNumber": "769687-4479"
+  },
+  {
+    "id": "sale-046",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32868243774568,
+      "lon": 18.062357454424756
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3896019,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-27T09:55:56.319591",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "035",
+    "floor": 2,
+    "livingArea": 74.2,
+    "monthlyFee": {
+      "amount": 4759,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 10",
+    "constructionSpan": "1979-2004",
+    "cooperativeRegistrationNumber": "769649-5141"
+  },
+  {
+    "id": "sale-047",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.328163524312565,
+      "lon": 18.05123634075311
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4068983,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-04T09:55:56.319608",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "071",
+    "floor": 4,
+    "livingArea": 74.7,
+    "monthlyFee": {
+      "amount": 4645,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 10",
+    "constructionSpan": "1970-1985",
+    "cooperativeRegistrationNumber": "769685-6791"
+  },
+  {
+    "id": "sale-048",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.32783625323232,
+      "lon": 18.060356442818662
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3208214,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-30T09:55:56.319624",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "053",
+    "floor": 3,
+    "livingArea": 64.7,
+    "monthlyFee": {
+      "amount": 4119,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 10",
+    "constructionSpan": "2008-1992",
+    "cooperativeRegistrationNumber": "769649-7561"
+  },
+  {
+    "id": "sale-049",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32892416632791,
+      "lon": 18.065876201149074
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4244433,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-11-14T09:55:56.319638",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "131",
+    "floor": 4,
+    "livingArea": 79.0,
+    "monthlyFee": {
+      "amount": 4781,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 10",
+    "constructionSpan": "1970-2013",
+    "cooperativeRegistrationNumber": "769675-8617"
+  },
+  {
+    "id": "sale-050",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.31545134923765,
+      "lon": 18.06420919466755
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3564044,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-01T09:55:56.319654",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "095",
+    "floor": 5,
+    "livingArea": 72.7,
+    "monthlyFee": {
+      "amount": 4575,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 10",
+    "constructionSpan": "2008-1977",
+    "cooperativeRegistrationNumber": "769660-2583"
+  },
+  {
+    "id": "sale-051",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.32389103367078,
+      "lon": 18.063388082178957
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3464784,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-10T09:55:56.319670",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "033",
+    "floor": 4,
+    "livingArea": 72.0,
+    "monthlyFee": {
+      "amount": 4372,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 11",
+    "constructionSpan": "1974-1987",
+    "cooperativeRegistrationNumber": "769696-7227"
+  },
+  {
+    "id": "sale-052",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32253308981518,
+      "lon": 18.056386916183783
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3011453,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-14T09:55:56.319685",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "105",
+    "floor": 5,
+    "livingArea": 61.7,
+    "monthlyFee": {
+      "amount": 4000,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 11",
+    "constructionSpan": "1990-1979",
+    "cooperativeRegistrationNumber": "769695-7740"
+  },
+  {
+    "id": "sale-053",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.32652337501785,
+      "lon": 18.065185827282424
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3338884,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-26T09:55:56.319701",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "033",
+    "floor": 1,
+    "livingArea": 64.8,
+    "monthlyFee": {
+      "amount": 4098,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 11",
+    "constructionSpan": "1998-2008",
+    "cooperativeRegistrationNumber": "769644-1845"
+  },
+  {
+    "id": "sale-054",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32247824563019,
+      "lon": 18.062997920045554
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4168337,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-16T09:55:56.319717",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "012",
+    "floor": 5,
+    "livingArea": 77.5,
+    "monthlyFee": {
+      "amount": 5213,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 11",
+    "constructionSpan": "1991-1991",
+    "cooperativeRegistrationNumber": "769657-8687"
+  },
+  {
+    "id": "sale-055",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32381193916209,
+      "lon": 18.05796047540479
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3631798,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-21T09:55:56.319753",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "141",
+    "floor": 4,
+    "livingArea": 66.1,
+    "monthlyFee": {
+      "amount": 4128,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 11",
+    "constructionSpan": "1981-1976",
+    "cooperativeRegistrationNumber": "769659-5994"
+  },
+  {
+    "id": "sale-056",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.3252932381636,
+      "lon": 18.069023495792912
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3536006,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-03T09:55:56.319779",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "135",
+    "floor": 3,
+    "livingArea": 67.4,
+    "monthlyFee": {
+      "amount": 4408,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 12",
+    "constructionSpan": "2009-1991",
+    "cooperativeRegistrationNumber": "769684-7977"
+  },
+  {
+    "id": "sale-057",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32130963333389,
+      "lon": 18.06524815598764
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3003033,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-05T09:55:56.319795",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "044",
+    "floor": 2,
+    "livingArea": 60.6,
+    "monthlyFee": {
+      "amount": 4005,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 12",
+    "constructionSpan": "1995-2019",
+    "cooperativeRegistrationNumber": "769689-2682"
+  },
+  {
+    "id": "sale-058",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32366746526635,
+      "lon": 18.05794886399433
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2981887,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-25T09:55:56.319810",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "153",
+    "floor": 3,
+    "livingArea": 60.4,
+    "monthlyFee": {
+      "amount": 3886,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 12",
+    "constructionSpan": "2004-1979",
+    "cooperativeRegistrationNumber": "769619-6826"
+  },
+  {
+    "id": "sale-059",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31210619200827,
+      "lon": 18.06808727388207
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3370323,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-10T09:55:56.319826",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "063",
+    "floor": 3,
+    "livingArea": 65.4,
+    "monthlyFee": {
+      "amount": 4393,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 12",
+    "constructionSpan": "1991-1982",
+    "cooperativeRegistrationNumber": "769613-9904"
+  },
+  {
+    "id": "sale-060",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31712975981915,
+      "lon": 18.054488579810567
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4146243,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-04-24T09:55:56.319841",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "144",
+    "floor": 2,
+    "livingArea": 79.5,
+    "monthlyFee": {
+      "amount": 5239,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 12",
+    "constructionSpan": "1993-2003",
+    "cooperativeRegistrationNumber": "769638-1934"
+  },
+  {
+    "id": "sale-061",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.328371174239905,
+      "lon": 18.06157820129439
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3128905,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-03T09:55:56.319857",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "144",
+    "floor": 2,
+    "livingArea": 59.3,
+    "monthlyFee": {
+      "amount": 3901,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 13",
+    "constructionSpan": "2001-1988",
+    "cooperativeRegistrationNumber": "769662-1933"
+  },
+  {
+    "id": "sale-062",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.323720314766724,
+      "lon": 18.06935184429313
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4266180,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-30T09:55:56.319872",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "054",
+    "floor": 1,
+    "livingArea": 79.9,
+    "monthlyFee": {
+      "amount": 5377,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 13",
+    "constructionSpan": "1987-2007",
+    "cooperativeRegistrationNumber": "769675-5418"
+  },
+  {
+    "id": "sale-063",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32075977772407,
+      "lon": 18.051640711464096
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3806359,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-12T09:55:56.319888",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "103",
+    "floor": 3,
+    "livingArea": 78.1,
+    "monthlyFee": {
+      "amount": 5107,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 13",
+    "constructionSpan": "1987-1997",
+    "cooperativeRegistrationNumber": "769616-4267"
+  },
+  {
+    "id": "sale-064",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32335744104292,
+      "lon": 18.05302796050899
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3371100,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-05T09:55:56.319905",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "055",
+    "floor": 1,
+    "livingArea": 64.9,
+    "monthlyFee": {
+      "amount": 4296,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 13",
+    "constructionSpan": "1976-2012",
+    "cooperativeRegistrationNumber": "769693-9286"
+  },
+  {
+    "id": "sale-065",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.3183211798999,
+      "lon": 18.057588166821432
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3265478,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-31T09:55:56.319920",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 4,
+    "livingArea": 62.0,
+    "monthlyFee": {
+      "amount": 3852,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 13",
+    "constructionSpan": "2015-1994",
+    "cooperativeRegistrationNumber": "769628-8734"
+  },
+  {
+    "id": "sale-066",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.318210489784114,
+      "lon": 18.05919755366323
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3043099,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-01T09:55:56.319936",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 3,
+    "livingArea": 56.6,
+    "monthlyFee": {
+      "amount": 3731,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 14",
+    "constructionSpan": "1971-1980",
+    "cooperativeRegistrationNumber": "769621-7129"
+  },
+  {
+    "id": "sale-067",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.317401921452614,
+      "lon": 18.057739187493162
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3134400,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-02T09:55:56.319954",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "073",
+    "floor": 2,
+    "livingArea": 60.0,
+    "monthlyFee": {
+      "amount": 3943,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 14",
+    "constructionSpan": "1984-1975",
+    "cooperativeRegistrationNumber": "769686-4542"
+  },
+  {
+    "id": "sale-068",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32203058582677,
+      "lon": 18.062891489496433
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 4190611,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-19T09:55:56.319974",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "095",
+    "floor": 2,
+    "livingArea": 78.1,
+    "monthlyFee": {
+      "amount": 4737,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 14",
+    "constructionSpan": "2003-1980",
+    "cooperativeRegistrationNumber": "769636-4518"
+  },
+  {
+    "id": "sale-069",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31761393190946,
+      "lon": 18.06311005086693
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3425947,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-11T09:55:56.319995",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "044",
+    "floor": 5,
+    "livingArea": 66.5,
+    "monthlyFee": {
+      "amount": 4218,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 14",
+    "constructionSpan": "1997-1998",
+    "cooperativeRegistrationNumber": "769629-6373"
+  },
+  {
+    "id": "sale-070",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31185556724297,
+      "lon": 18.051074539318112
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2921069,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-27T09:55:56.320019",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "111",
+    "floor": 5,
+    "livingArea": 56.6,
+    "monthlyFee": {
+      "amount": 3701,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 14",
+    "constructionSpan": "1988-1994",
+    "cooperativeRegistrationNumber": "769627-7665"
+  },
+  {
+    "id": "sale-071",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32684632005613,
+      "lon": 18.058870479771457
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3830810,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-04T09:55:56.320052",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "053",
+    "floor": 2,
+    "livingArea": 77.9,
+    "monthlyFee": {
+      "amount": 5192,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 15",
+    "constructionSpan": "1971-1988",
+    "cooperativeRegistrationNumber": "769683-8903"
+  },
+  {
+    "id": "sale-072",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31612620923625,
+      "lon": 18.068164153452184
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3712197,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-15T09:55:56.320069",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "055",
+    "floor": 2,
+    "livingArea": 71.9,
+    "monthlyFee": {
+      "amount": 4320,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 15",
+    "constructionSpan": "1995-2014",
+    "cooperativeRegistrationNumber": "769678-1500"
+  },
+  {
+    "id": "sale-073",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.3224192724705,
+      "lon": 18.05534259974564
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3512054,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-22T09:55:56.320084",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "082",
+    "floor": 1,
+    "livingArea": 64.4,
+    "monthlyFee": {
+      "amount": 4092,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 15",
+    "constructionSpan": "2005-1992",
+    "cooperativeRegistrationNumber": "769643-2329"
+  },
+  {
+    "id": "sale-074",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.324241030910144,
+      "lon": 18.05571316762778
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3771027,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-26T09:55:56.320099",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "062",
+    "floor": 5,
+    "livingArea": 76.4,
+    "monthlyFee": {
+      "amount": 4813,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 15",
+    "constructionSpan": "1986-1992",
+    "cooperativeRegistrationNumber": "769679-1879"
+  },
+  {
+    "id": "sale-075",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31936500115587,
+      "lon": 18.067469006423412
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3240000,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-25T09:55:56.320114",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "131",
+    "floor": 3,
+    "livingArea": 60.0,
+    "monthlyFee": {
+      "amount": 3990,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 15",
+    "constructionSpan": "2005-2003",
+    "cooperativeRegistrationNumber": "769676-8555"
+  },
+  {
+    "id": "sale-076",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.317837749444266,
+      "lon": 18.052637169139725
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3634652,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-13T09:55:56.320129",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "022",
+    "floor": 3,
+    "livingArea": 68.3,
+    "monthlyFee": {
+      "amount": 4380,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 16",
+    "constructionSpan": "2013-1996",
+    "cooperativeRegistrationNumber": "769618-4904"
+  },
+  {
+    "id": "sale-077",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.320745282611014,
+      "lon": 18.05422820560485
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3295927,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-07T09:55:56.320144",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "134",
+    "floor": 2,
+    "livingArea": 67.4,
+    "monthlyFee": {
+      "amount": 4264,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 16",
+    "constructionSpan": "1975-2012",
+    "cooperativeRegistrationNumber": "769643-3870"
+  },
+  {
+    "id": "sale-078",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31228799273472,
+      "lon": 18.062648578434214
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3150741,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-14T09:55:56.320160",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "085",
+    "floor": 2,
+    "livingArea": 62.2,
+    "monthlyFee": {
+      "amount": 3894,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 16",
+    "constructionSpan": "1978-2007",
+    "cooperativeRegistrationNumber": "769685-6867"
+  },
+  {
+    "id": "sale-079",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.31339568436233,
+      "lon": 18.062194574468986
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2841258,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-03-16T09:55:56.320176",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "043",
+    "floor": 3,
+    "livingArea": 55.3,
+    "monthlyFee": {
+      "amount": 3383,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 16",
+    "constructionSpan": "2000-1993",
+    "cooperativeRegistrationNumber": "769662-3296"
+  },
+  {
+    "id": "sale-080",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.32835865624322,
+      "lon": 18.05584616799698
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3028068,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-03T09:55:56.320191",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "074",
+    "floor": 4,
+    "livingArea": 62.9,
+    "monthlyFee": {
+      "amount": 4357,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 16",
+    "constructionSpan": "2013-1989",
+    "cooperativeRegistrationNumber": "769611-4646"
+  },
+  {
+    "id": "sale-081",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.31903375165405,
+      "lon": 18.050597119417013
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3261490,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-05T09:55:56.320209",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "091",
+    "floor": 4,
+    "livingArea": 62.9,
+    "monthlyFee": {
+      "amount": 3888,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 17",
+    "constructionSpan": "2003-1978",
+    "cooperativeRegistrationNumber": "769646-8837"
+  },
+  {
+    "id": "sale-082",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.32616988932586,
+      "lon": 18.05513522033999
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3871801,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-03T09:55:56.320228",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "072",
+    "floor": 3,
+    "livingArea": 73.6,
+    "monthlyFee": {
+      "amount": 4663,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 17",
+    "constructionSpan": "1974-1983",
+    "cooperativeRegistrationNumber": "769610-7720"
+  },
+  {
+    "id": "sale-083",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.320077198652406,
+      "lon": 18.05264071958447
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2895823,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-22T09:55:56.320252",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "112",
+    "floor": 5,
+    "livingArea": 55.5,
+    "monthlyFee": {
+      "amount": 3509,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 17",
+    "constructionSpan": "1975-1988",
+    "cooperativeRegistrationNumber": "769692-9884"
+  },
+  {
+    "id": "sale-084",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31644074588036,
+      "lon": 18.066217257898696
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3781861,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-22T09:55:56.320271",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "153",
+    "floor": 1,
+    "livingArea": 72.1,
+    "monthlyFee": {
+      "amount": 4887,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 17",
+    "constructionSpan": "1981-1978",
+    "cooperativeRegistrationNumber": "769660-9163"
+  },
+  {
+    "id": "sale-085",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32075171238749,
+      "lon": 18.06469999454229
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3743304,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-03-31T09:55:56.320296",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 1,
+    "livingArea": 69.8,
+    "monthlyFee": {
+      "amount": 4866,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 17",
+    "constructionSpan": "1999-2001",
+    "cooperativeRegistrationNumber": "769679-7084"
+  },
+  {
+    "id": "sale-086",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.32170637373001,
+      "lon": 18.066034974589584
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3360016,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-06-06T09:55:56.320320",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "155",
+    "floor": 2,
+    "livingArea": 65.2,
+    "monthlyFee": {
+      "amount": 4366,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 18",
+    "constructionSpan": "2012-1988",
+    "cooperativeRegistrationNumber": "769628-6432"
+  },
+  {
+    "id": "sale-087",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.32763558918114,
+      "lon": 18.063821442936757
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3674956,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-05-18T09:55:56.320339",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 3,
+    "livingArea": 68.5,
+    "monthlyFee": {
+      "amount": 4391,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 18",
+    "constructionSpan": "1997-2005",
+    "cooperativeRegistrationNumber": "769676-7461"
+  },
+  {
+    "id": "sale-088",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.31898704102927,
+      "lon": 18.05878562190185
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3386635,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-12-07T09:55:56.320363",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "135",
+    "floor": 3,
+    "livingArea": 62.4,
+    "monthlyFee": {
+      "amount": 4156,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 18",
+    "constructionSpan": "1975-2013",
+    "cooperativeRegistrationNumber": "769669-2592"
+  },
+  {
+    "id": "sale-089",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.320468294666,
+      "lon": 18.065677868790093
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3755546,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-19T09:55:56.320390",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "143",
+    "floor": 2,
+    "livingArea": 69.6,
+    "monthlyFee": {
+      "amount": 4417,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 18",
+    "constructionSpan": "1987-2012",
+    "cooperativeRegistrationNumber": "769674-9143"
+  },
+  {
+    "id": "sale-090",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.312968401668016,
+      "lon": 18.06503443845302
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3672930,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-11T09:55:56.320407",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "023",
+    "floor": 2,
+    "livingArea": 74.6,
+    "monthlyFee": {
+      "amount": 5032,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 2,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 18",
+    "constructionSpan": "2003-2009",
+    "cooperativeRegistrationNumber": "769683-5075"
+  },
+  {
+    "id": "sale-091",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31591440595397,
+      "lon": 18.054835741180774
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3815037,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-27T09:55:56.320423",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "094",
+    "floor": 4,
+    "livingArea": 75.9,
+    "monthlyFee": {
+      "amount": 5304,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 19",
+    "constructionSpan": "1987-1981",
+    "cooperativeRegistrationNumber": "769665-7046"
+  },
+  {
+    "id": "sale-092",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.32417470834336,
+      "lon": 18.066369817644325
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3718335,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-08-13T09:55:56.320438",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "022",
+    "floor": 5,
+    "livingArea": 74.9,
+    "monthlyFee": {
+      "amount": 4731,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 19",
+    "constructionSpan": "1977-1978",
+    "cooperativeRegistrationNumber": "769646-5847"
+  },
+  {
+    "id": "sale-093",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.32642166661294,
+      "lon": 18.057640846640254
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3489294,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-09T09:55:56.320454",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "124",
+    "floor": 5,
+    "livingArea": 65.1,
+    "monthlyFee": {
+      "amount": 4389,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 19",
+    "constructionSpan": "1984-1987",
+    "cooperativeRegistrationNumber": "769698-4057"
+  },
+  {
+    "id": "sale-094",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.3179570425691,
+      "lon": 18.05614371818539
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3628832,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-10-16T09:55:56.320470",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "065",
+    "floor": 3,
+    "livingArea": 75.5,
+    "monthlyFee": {
+      "amount": 4546,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 19",
+    "constructionSpan": "1982-2011",
+    "cooperativeRegistrationNumber": "769647-3401"
+  },
+  {
+    "id": "sale-095",
+    "broker": "Fastighetsbyrån",
+    "coordinates": {
+      "lat": 59.31153244244087,
+      "lon": 18.06180370398561
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3618774,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-21T09:55:56.320488",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "041",
+    "floor": 3,
+    "livingArea": 69.0,
+    "monthlyFee": {
+      "amount": 4420,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 19",
+    "constructionSpan": "1989-1978",
+    "cooperativeRegistrationNumber": "769697-4686"
+  },
+  {
+    "id": "sale-096",
+    "broker": "Bjurfors",
+    "coordinates": {
+      "lat": 59.314304430846875,
+      "lon": 18.055882720546506
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3161565,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-01-19T09:55:56.320504",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "014",
+    "floor": 1,
+    "livingArea": 64.7,
+    "monthlyFee": {
+      "amount": 4468,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 20",
+    "constructionSpan": "2015-1980",
+    "cooperativeRegistrationNumber": "769660-1388"
+  },
+  {
+    "id": "sale-097",
+    "broker": "Länsförsäkringar",
+    "coordinates": {
+      "lat": 59.31573143602389,
+      "lon": 18.061534143687666
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 2984732,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-09-27T09:55:56.320519",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "101",
+    "floor": 4,
+    "livingArea": 60.8,
+    "monthlyFee": {
+      "amount": 4217,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 20",
+    "constructionSpan": "2014-2007",
+    "cooperativeRegistrationNumber": "769668-4463"
+  },
+  {
+    "id": "sale-098",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.324937827666744,
+      "lon": 18.06513044850873
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3417064,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2024-11-15T09:55:56.320534",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "053",
+    "floor": 2,
+    "livingArea": 64.4,
+    "monthlyFee": {
+      "amount": 4175,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 20",
+    "constructionSpan": "1974-2018",
+    "cooperativeRegistrationNumber": "769670-6401"
+  },
+  {
+    "id": "sale-099",
+    "broker": "Svensk Fastighetsförmedling",
+    "coordinates": {
+      "lat": 59.3207107735496,
+      "lon": 18.069676174958563
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3197472,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-02-12T09:55:56.320558",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "043",
+    "floor": 5,
+    "livingArea": 63.3,
+    "monthlyFee": {
+      "amount": 3933,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 3,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 20",
+    "constructionSpan": "1991-1984",
+    "cooperativeRegistrationNumber": "769644-5162"
+  },
+  {
+    "id": "sale-100",
+    "broker": "Erik Olsson",
+    "coordinates": {
+      "lat": 59.315116065584206,
+      "lon": 18.050055332787032
+    },
+    "housingForm": 300,
+    "isPreOwned": true,
+    "price": {
+      "amount": 3516217,
+      "currency": "SEK"
+    },
+    "isPublic": true,
+    "soldAt": "2025-07-08T09:55:56.320587",
+    "tenure": "TENANT_OWNERSHIP",
+    "apartmentNumber": "052",
+    "floor": 4,
+    "livingArea": 64.9,
+    "monthlyFee": {
+      "amount": 4430,
+      "currency": "SEK"
+    },
+    "numberOfRooms": 4,
+    "postCode": "11122",
+    "postalArea": "Stockholm",
+    "streetAddress": "Street 20",
+    "constructionSpan": "2011-2017",
+    "cooperativeRegistrationNumber": "769644-8196"
+  }
+]
