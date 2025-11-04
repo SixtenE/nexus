@@ -1,6 +1,8 @@
 "use client";
+import { useRouter, useSearchParams } from "next/navigation";
 import React, { useState } from "react";
-
+import { Button } from "@/components/ui/button";
+import { ArrowLeft, Download, Home } from "lucide-react";
 // Dark-theme friendly React mockup using Tailwind tokens that match your Heimverdi theme.
 // No external libs. Swedish labels.
 
@@ -51,6 +53,7 @@ const Step = ({
     fel: "bg-red-600 text-white border-red-700",
     väntar: "bg-muted text-muted-foreground border-border",
   };
+
   return (
     <div className="flex gap-3 items-start">
       <div
@@ -171,6 +174,11 @@ export default function App() {
     marknad: { områdeSnitt: "3,0–3,4 M", trend: "+2,1%/år" },
   };
 
+  const router = useRouter();
+  const handleGoBack = () => {
+    router.push("/");
+  };
+
   return (
     <div className="min-h-screen bg-gradient-radial from-primary/15 via-accent/10 to-background text-foreground">
       {/* Top bar */}
@@ -180,6 +188,13 @@ export default function App() {
             <div className="h-9 w-9 rounded-2xl bg-primary text-primary-foreground grid place-items-center font-bold">
               AI
             </div>
+            <Button
+                variant="ghost"
+                size="icon"
+                onClick={handleGoBack}
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </Button>
             <div>
               <div className="text-xs text-muted-foreground">Temporal • Serverless</div>
               <div className="font-semibold text-foreground">Fastighetsvärdering & Risk</div>
