@@ -6,8 +6,9 @@
     "declarationMap": true,
     "sourceMap": true,
     "rootDir": "./src",
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
-
   "include": ["src/**/*.ts"]
 }
