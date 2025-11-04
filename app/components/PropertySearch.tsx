@@ -1,19 +1,16 @@
+"use client";
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 
-interface PropertySearchProps {
-  onSearch: (address: string) => void;
-}
-
-const PropertySearch = ({ onSearch }: PropertySearchProps) => {
+const PropertySearch = () => {
   const [address, setAddress] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (address.trim()) {
-      onSearch(address);
     }
   };
 

@@ -1,3 +1,8 @@
+import { Building2, Shield, Sparkles, TrendingUp } from "lucide-react";
+import PropertySearch from "./components/PropertySearch";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
 export default async function Page() {
   const features = [
     {
@@ -30,7 +35,7 @@ export default async function Page() {
       <section className="relative overflow-hidden bg-gradient-primary">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]" />
         <div className="container mx-auto px-4 py-24 relative">
-          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
+          <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
               AI-driven Fastighetsvärdering
             </h1>
@@ -39,7 +44,7 @@ export default async function Page() {
               ekonomiska och miljömässiga faktorer
             </p>
             <div className="flex justify-center">
-              <PropertySearch onSearch={handleSearch} />
+              <PropertySearch />
             </div>
           </div>
         </div>
@@ -65,7 +70,7 @@ export default async function Page() {
             >
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <feature.icon className="w-6 h-6 text-primary-foreground" />
+                  <feature.icon className="w-6 h-6 " />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
                   {feature.title}
@@ -90,27 +95,10 @@ export default async function Page() {
               Se exempel på hur vårt system analyserar olika fastigheter
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                onClick={() =>
-                  navigate("/dashboard", {
-                    state: { propertyData: mockPropertyData },
-                  })
-                }
-                className="text-lg px-8"
-              >
+              <Button size="lg" className="text-lg px-8">
                 Stockholm - Hög Poäng
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                onClick={() =>
-                  navigate("/dashboard", {
-                    state: { propertyData: mockPropertyData2 },
-                  })
-                }
-                className="text-lg px-8"
-              >
+              <Button size="lg" variant="outline" className="text-lg px-8">
                 Göteborg - Medel Poäng
               </Button>
             </div>
