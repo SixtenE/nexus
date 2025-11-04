@@ -1,21 +1,30 @@
 "use client";
 import React, { useState } from "react";
 
-// Simple, self-contained React mockup using only Tailwind classes.
-// Focus: UX for a Temporal-orchestrated, serverless AI property valuation & risk app.
-// Language: Swedish-first labels for local fit. No external libs required.
+// Dark-theme friendly React mockup using Tailwind tokens that match your Heimverdi theme.
+// No external libs. Swedish labels.
 
 const Tag = ({ label }: { label: string }) => (
-  <span className="px-2 py-0.5 rounded-full text-xs border border-gray-300 bg-white/60">
+  <span className="px-2 py-0.5 rounded-full text-xs border border-border bg-card/60 text-muted-foreground">
     {label}
   </span>
 );
 
-const StatCard = ({ title, value, subtitle }: { title: string; value: string; subtitle?: string }) => (
-  <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-    <div className="text-gray-500 text-sm">{title}</div>
-    <div className="text-2xl font-semibold mt-1">{value}</div>
-    {subtitle && <div className="text-xs text-gray-500 mt-1">{subtitle}</div>}
+const StatCard = ({
+  title,
+  value,
+  subtitle,
+}: {
+  title: string;
+  value: string;
+  subtitle?: string;
+}) => (
+  <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+    <div className="text-sm text-muted-foreground">{title}</div>
+    <div className="text-2xl font-semibold mt-1 text-foreground">{value}</div>
+    {subtitle && (
+      <div className="text-xs text-muted-foreground mt-1">{subtitle}</div>
+    )}
   </div>
 );
 
@@ -30,47 +39,73 @@ const Step = ({
   status: "klar" | "pågår" | "väntar" | "fel";
   desc?: string;
 }) => {
-  const colorMap: Record<string, string> = {
-    klar: "bg-green-100 text-green-700 border-green-200",
-    pågår: "bg-blue-100 text-blue-700 border-blue-200",
-    väntar: "bg-gray-100 text-gray-600 border-gray-200",
-    fel: "bg-red-100 text-red-700 border-red-200",
+  const chipMap: Record<string, string> = {
+    klar: "bg-green-500/15 text-green-300 border-green-600/40",
+    pågår: "bg-primary/15 text-primary border-primary/40",
+    väntar: "bg-muted text-muted-foreground border-border",
+    fel: "bg-red-500/15 text-red-300 border-red-600/40",
+  };
+  const dotMap: Record<string, string> = {
+    klar: "bg-green-600 text-white border-green-700",
+    pågår: "bg-primary text-primary-foreground border-primary/70",
+    fel: "bg-red-600 text-white border-red-700",
+    väntar: "bg-muted text-muted-foreground border-border",
   };
   return (
     <div className="flex gap-3 items-start">
-      <div className={`h-8 w-8 min-w-8 flex items-center justify-center rounded-xl border ${status === "klar" ? "bg-green-600 text-white border-green-700" : status === "pågår" ? "bg-blue-600 text-white border-blue-700" : status === "fel" ? "bg-red-600 text-white border-red-700" : "bg-gray-200 text-gray-700 border-gray-300"}`}>
+      <div
+        className={`h-8 w-8 min-w-8 flex items-center justify-center rounded-xl border ${dotMap[status]}`}
+      >
         {index}
       </div>
       <div className="flex-1">
         <div className="flex items-center gap-2">
-          <div className="font-medium">{title}</div>
-          <span className={`text-xs px-2 py-0.5 rounded-full border ${colorMap[status]}`}>{status.toUpperCase()}</span>
+          <div className="font-medium text-foreground">{title}</div>
+          <span
+            className={`text-xs px-2 py-0.5 rounded-full border ${chipMap[status]}`}
+          >
+            {status.toUpperCase()}
+          </span>
         </div>
-        {desc && <div className="text-sm text-gray-600 mt-1">{desc}</div>}
+        {desc && <div className="text-sm text-muted-foreground mt-1">{desc}</div>}
       </div>
     </div>
   );
 };
 
-const Gauge = ({ label, value, color = "" }: { label: string; value: number; color?: string }) => (
-  <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-    <div className="text-sm text-gray-500 mb-2 flex items-center justify-between">
+const Gauge = ({
+  label,
+  value,
+  color = "",
+}: {
+  label: string;
+  value: number;
+  color?: string;
+}) => (
+  <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+    <div className="text-sm text-muted-foreground mb-2 flex items-center justify-between">
       <span>{label}</span>
-      <span className="text-gray-700 font-medium">{value}</span>
+      <span className="text-foreground font-medium">{value}</span>
     </div>
-    <div className="w-full h-3 rounded-full bg-gray-100 overflow-hidden">
+    <div className="w-full h-3 rounded-full bg-muted overflow-hidden">
       <div
-        className={`h-3 ${color || "bg-blue-500"}`}
+        className={`h-3 ${color || "bg-primary"}`}
         style={{ width: `${Math.min(100, Math.max(0, value))}%` }}
       />
     </div>
   </div>
 );
 
-const InfoRow = ({ left, right }: { left: string; right: string | React.ReactNode }) => (
-  <div className="flex items-center justify-between py-2 border-b last:border-b-0">
-    <div className="text-gray-500 text-sm">{left}</div>
-    <div className="text-gray-800 text-sm font-medium">{right}</div>
+const InfoRow = ({
+  left,
+  right,
+}: {
+  left: string;
+  right: string | React.ReactNode;
+}) => (
+  <div className="flex items-center justify-between py-2 border-b border-border last:border-b-0">
+    <div className="text-sm text-muted-foreground">{left}</div>
+    <div className="text-sm font-medium text-foreground">{right}</div>
   </div>
 );
 
@@ -78,20 +113,53 @@ export default function App() {
   const [addr, setAddr] = useState("Storgatan 12, 3 tr");
   const [area, setArea] = useState(64);
   const [fee, setFee] = useState(3950);
-  const [includes, setIncludes] = useState({ vatten: true, värme: true, bredband: false, parkering: false });
+  const [includes, setIncludes] = useState({
+    vatten: true,
+    värme: true,
+    bredband: false,
+    parkering: false,
+  });
   const [startValuation, setStartValuation] = useState(false);
 
   const workflow = [
-    { title: "Hämta basdata (lägenhet/fastighet)", status: startValuation ? "klar" : "väntar", desc: "Adress, m², upplåtelseform" },
-    { title: "Hämta marknadsdata (Booli/Hemnet, SCB)", status: startValuation ? "pågår" : "väntar", desc: "Senaste försäljningar, prisnivåer" },
-    { title: "Hämta kostnadsdata", status: startValuation ? "väntar" : "väntar", desc: "Månadsavgift, drift, parkering" },
-    { title: "OVK & Energideklaration", status: startValuation ? "väntar" : "väntar", desc: "OVK-status, energiklass, radon" },
-    { title: "AI Värdering (XGBoost/Reg.)", status: startValuation ? "väntar" : "väntar", desc: "Värdeintervall" },
-    { title: "AI Riskmodell", status: startValuation ? "väntar" : "väntar", desc: "Hälsa & riskindex" },
-    { title: "Sammanfattning + Rapport", status: startValuation ? "väntar" : "väntar", desc: "PDF & API-utdata" },
+    {
+      title: "Hämta basdata (lägenhet/fastighet)",
+      status: startValuation ? "klar" : "väntar",
+      desc: "Adress, m², upplåtelseform",
+    },
+    {
+      title: "Hämta marknadsdata (Booli/Hemnet, SCB)",
+      status: startValuation ? "pågår" : "väntar",
+      desc: "Senaste försäljningar, prisnivåer",
+    },
+    {
+      title: "Hämta kostnadsdata",
+      status: startValuation ? "väntar" : "väntar",
+      desc: "Månadsavgift, drift, parkering",
+    },
+    {
+      title: "OVK & Energideklaration",
+      status: startValuation ? "väntar" : "väntar",
+      desc: "OVK-status, energiklass, radon",
+    },
+    {
+      title: "AI Värdering (XGBoost/Reg.)",
+      status: startValuation ? "väntar" : "väntar",
+      desc: "Värdeintervall",
+    },
+    {
+      title: "AI Riskmodell",
+      status: startValuation ? "väntar" : "väntar",
+      desc: "Hälsa & riskindex",
+    },
+    {
+      title: "Sammanfattning + Rapport",
+      status: startValuation ? "väntar" : "väntar",
+      desc: "PDF & API-utdata",
+    },
   ];
 
-  // Mock results shown after clicking "Kör värdering"
+  // Mock results after "Kör värdering"
   const mock = {
     healthIndex: 78,
     riskLevel: "Medel",
@@ -104,15 +172,17 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-radial from-primary/15 via-accent/10 to-background text-foreground">
       {/* Top bar */}
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b">
+      <header className="sticky top-0 z-10 bg-card/80 backdrop-blur border-b border-border">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-2xl bg-blue-600 text-white grid place-items-center font-bold">AI</div>
+            <div className="h-9 w-9 rounded-2xl bg-primary text-primary-foreground grid place-items-center font-bold">
+              AI
+            </div>
             <div>
-              <div className="text-sm text-gray-500">Temporal • Serverless</div>
-              <div className="font-semibold">Fastighetsvärdering & Risk</div>
+              <div className="text-xs text-muted-foreground">Temporal • Serverless</div>
+              <div className="font-semibold text-foreground">Fastighetsvärdering & Risk</div>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -127,16 +197,22 @@ export default function App() {
       <div className="max-w-7xl mx-auto px-4 py-6 grid grid-cols-12 gap-6">
         {/* Sidebar: Temporal Steps */}
         <aside className="col-span-12 lg:col-span-4 xl:col-span-3">
-          <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-            <div className="font-semibold mb-3">Workflow (Temporal)</div>
+          <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+            <div className="font-semibold mb-3 text-foreground">Workflow (Temporal)</div>
             <div className="space-y-4">
               {workflow.map((s, i) => (
-                <Step key={i} index={i + 1} title={s.title} status={s.status as any} desc={s.desc} />
+                <Step
+                  key={i}
+                  index={i + 1}
+                  title={s.title}
+                  status={s.status as any}
+                  desc={s.desc}
+                />
               ))}
             </div>
             <button
               onClick={() => setStartValuation(true)}
-              className="mt-4 w-full rounded-xl bg-blue-600 text-white py-2.5 hover:bg-blue-700 transition"
+              className="mt-4 w-full rounded-xl bg-primary text-primary-foreground py-2.5 hover:opacity-90 transition"
             >
               Kör värdering
             </button>
@@ -146,23 +222,39 @@ export default function App() {
         {/* Main */}
         <main className="col-span-12 lg:col-span-8 xl:col-span-9 space-y-6">
           {/* Search & Inputs */}
-          <section className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
+          <section className="rounded-2xl p-4 bg-card shadow-sm border border-border">
             <div className="flex items-center justify-between">
-              <h2 className="font-semibold">Sök & Grunddata</h2>
-              <div className="text-xs text-gray-500">Fyll i eller auto-fyll via API</div>
+              <h2 className="font-semibold text-foreground">Sök & Grunddata</h2>
+              <div className="text-xs text-muted-foreground">
+                Fyll i eller auto-fyll via API
+              </div>
             </div>
             <div className="grid md:grid-cols-3 gap-4 mt-3">
               <div>
-                <label className="text-sm text-gray-600">Adress</label>
-                <input value={addr} onChange={(e) => setAddr(e.target.value)} className="mt-1 w-full rounded-xl border px-3 py-2" />
+                <label className="text-sm text-muted-foreground">Adress</label>
+                <input
+                  value={addr}
+                  onChange={(e) => setAddr(e.target.value)}
+                  className="mt-1 w-full rounded-xl border border-border bg-background text-foreground px-3 py-2 focus:outline-none focus:ring-1 focus:ring-ring"
+                />
               </div>
               <div>
-                <label className="text-sm text-gray-600">Boyta (m²)</label>
-                <input type="number" value={area} onChange={(e) => setArea(parseInt(e.target.value || "0"))} className="mt-1 w-full rounded-xl border px-3 py-2" />
+                <label className="text-sm text-muted-foreground">Boyta (m²)</label>
+                <input
+                  type="number"
+                  value={area}
+                  onChange={(e) => setArea(parseInt(e.target.value || "0"))}
+                  className="mt-1 w-full rounded-xl border border-border bg-background text-foreground px-3 py-2 focus:outline-none focus:ring-1 focus:ring-ring"
+                />
               </div>
               <div>
-                <label className="text-sm text-gray-600">Månadsavgift (SEK)</label>
-                <input type="number" value={fee} onChange={(e) => setFee(parseInt(e.target.value || "0"))} className="mt-1 w-full rounded-xl border px-3 py-2" />
+                <label className="text-sm text-muted-foreground">Månadsavgift (SEK)</label>
+                <input
+                  type="number"
+                  value={fee}
+                  onChange={(e) => setFee(parseInt(e.target.value || "0"))}
+                  className="mt-1 w-full rounded-xl border border-border bg-background text-foreground px-3 py-2 focus:outline-none focus:ring-1 focus:ring-ring"
+                />
               </div>
             </div>
             <div className="grid md:grid-cols-4 gap-4 mt-3">
@@ -172,24 +264,45 @@ export default function App() {
                 { key: "bredband", label: "Bredband ingår" },
                 { key: "parkering", label: "Parkering finns" },
               ].map((opt) => (
-                <label key={opt.key} className="flex items-center gap-2 p-3 border rounded-xl cursor-pointer">
+                <label
+                  key={opt.key}
+                  className="flex items-center gap-2 p-3 border border-border rounded-xl cursor-pointer bg-background"
+                >
                   <input
                     type="checkbox"
                     checked={(includes as any)[opt.key]}
-                    onChange={(e) => setIncludes((prev) => ({ ...prev, [opt.key]: e.target.checked }))}
+                    onChange={(e) =>
+                      setIncludes((prev) => ({ ...prev, [opt.key]: e.target.checked }))
+                    }
                   />
-                  <span className="text-sm">{opt.label}</span>
+                  <span className="text-sm text-foreground">{opt.label}</span>
                 </label>
               ))}
             </div>
           </section>
 
-          {/* Resultat overview */}
+          {/* Result overview */}
           <section className="grid md:grid-cols-4 gap-4">
-            <StatCard title="AI Property Health Index" value={startValuation ? `${mock.healthIndex}/100` : "–"} subtitle="Samlad kvalitetsindikator" />
-            <StatCard title="Risknivå" value={startValuation ? mock.riskLevel : "–"} subtitle="Låg / Medel / Hög" />
-            <StatCard title="Värdeintervall" value={startValuation ? mock.valueRange : "–"} subtitle="Marknadsjusterat" />
-            <StatCard title="Konfidens" value={startValuation ? "±6%" : "–"} subtitle="Modellosäkerhet" />
+            <StatCard
+              title="AI Property Health Index"
+              value={startValuation ? `${mock.healthIndex}/100` : "–"}
+              subtitle="Samlad kvalitetsindikator"
+            />
+            <StatCard
+              title="Risknivå"
+              value={startValuation ? mock.riskLevel : "–"}
+              subtitle="Låg / Medel / Hög"
+            />
+            <StatCard
+              title="Värdeintervall"
+              value={startValuation ? mock.valueRange : "–"}
+              subtitle="Marknadsjusterat"
+            />
+            <StatCard
+              title="Konfidens"
+              value={startValuation ? "±6%" : "–"}
+              subtitle="Modellosäkerhet"
+            />
           </section>
 
           {/* Gauges */}
@@ -204,46 +317,75 @@ export default function App() {
 
           {/* Detail panels */}
           <section className="grid xl:grid-cols-3 gap-4">
-            <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-              <div className="font-semibold mb-2">OVK & Energi</div>
+            <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+              <div className="font-semibold mb-2 text-foreground">OVK & Energi</div>
               <InfoRow left="OVK utförd" right={startValuation ? mock.ovk.utförd : "–"} />
               <InfoRow left="OVK godkänd" right={startValuation ? mock.ovk.godkänd : "–"} />
-              <div className="my-2 border-t" />
-              <InfoRow left="Energideklaration" right={startValuation ? mock.energi.deklaration : "–"} />
+              <div className="my-2 border-t border-border" />
+              <InfoRow
+                left="Energideklaration"
+                right={startValuation ? mock.energi.deklaration : "–"}
+              />
               <InfoRow left="Energiklass" right={startValuation ? mock.energi.klass : "–"} />
-              <p className="text-xs text-gray-500 mt-2">Källa: Boverket • OVK-register • Energideklaration.</p>
+              <p className="text-xs text-muted-foreground mt-2">
+                Källa: Boverket • OVK-register • Energideklaration.
+              </p>
             </div>
 
-            <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-              <div className="font-semibold mb-2">Kostnader & Innehåll</div>
-              <InfoRow left="Avgift" right={startValuation ? `${mock.kostnader.avgift} kr/mån` : "–"} />
-              <InfoRow left="Driftskostnad" right={startValuation ? `${mock.kostnader.drift} kr/mån` : "–"} />
+            <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+              <div className="font-semibold mb-2 text-foreground">Kostnader & Innehåll</div>
+              <InfoRow
+                left="Avgift"
+                right={startValuation ? `${mock.kostnader.avgift} kr/mån` : "–"}
+              />
+              <InfoRow
+                left="Driftskostnad"
+                right={startValuation ? `${mock.kostnader.drift} kr/mån` : "–"}
+              />
               <InfoRow left="Vatten" right={includes.vatten ? "Ingår" : "Ingår ej"} />
               <InfoRow left="Värme" right={includes.värme ? "Ingår" : "Ingår ej"} />
               <InfoRow left="Bredband" right={includes.bredband ? "Ingår" : "Ingår ej"} />
-              <InfoRow left="Parkering" right={startValuation ? mock.kostnader.parkering : "–"} />
-              <p className="text-xs text-gray-500 mt-2">Jämförs mot områdessnitt per m².</p>
+              <InfoRow
+                left="Parkering"
+                right={startValuation ? mock.kostnader.parkering : "–"}
+              />
+              <p className="text-xs text-muted-foreground mt-2">
+                Jämförs mot områdessnitt per m².
+              </p>
             </div>
 
-            <div className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
-              <div className="font-semibold mb-2">Marknad & Läge</div>
-              <InfoRow left="Områdessnitt (värde)" right={startValuation ? mock.marknad.områdeSnitt : "–"} />
+            <div className="rounded-2xl p-4 bg-card shadow-sm border border-border">
+              <div className="font-semibold mb-2 text-foreground">Marknad & Läge</div>
+              <InfoRow
+                left="Områdessnitt (värde)"
+                right={startValuation ? mock.marknad.områdeSnitt : "–"}
+              />
               <InfoRow left="Trend 3 år" right={startValuation ? mock.marknad.trend : "–"} />
-              <div className="my-2 border-t" />
-              <InfoRow left="Kollektivtrafik" right={startValuation ? mock.läge.kollektivtrafik : "–"} />
+              <div className="my-2 border-t border-border" />
+              <InfoRow
+                left="Kollektivtrafik"
+                right={startValuation ? mock.läge.kollektivtrafik : "–"}
+              />
               <InfoRow left="Buller" right={startValuation ? mock.läge.buller : "–"} />
-              <InfoRow left="Avstånd till centrum" right={startValuation ? mock.läge.centrum : "–"} />
-              <p className="text-xs text-gray-500 mt-2">Källa: SCB • Trafikverket • kommunal GIS-data.</p>
+              <InfoRow
+                left="Avstånd till centrum"
+                right={startValuation ? mock.läge.centrum : "–"}
+              />
+              <p className="text-xs text-muted-foreground mt-2">
+                Källa: SCB • Trafikverket • kommunal GIS-data.
+              </p>
             </div>
           </section>
 
           {/* AI Explanation */}
-          <section className="rounded-2xl p-4 bg-white shadow-sm border border-gray-100">
+          <section className="rounded-2xl p-4 bg-card shadow-sm border border-border">
             <div className="flex items-center justify-between">
-              <h3 className="font-semibold">AI-förklaring</h3>
-              <button className="rounded-xl border px-3 py-1.5 text-sm hover:bg-gray-50">Kopiera utlåtande</button>
+              <h3 className="font-semibold text-foreground">AI-förklaring</h3>
+              <button className="rounded-xl border border-border px-3 py-1.5 text-sm hover:bg-muted">
+                Kopiera utlåtande
+              </button>
             </div>
-            <p className="text-sm text-gray-700 mt-2">
+            <p className="text-sm text-foreground mt-2">
               {startValuation
                 ? "Avgiften per m² är ~25% högre än områdessnittet vilket sänker betyget inom Ekonomi. Energiklass C och godkänd OVK höjer Hälsa-index. Marknadstrenden är svagt positiv (+2,1%/år)."
                 : "Kör värdering för att generera ett AI-utlåtande."}
@@ -252,15 +394,21 @@ export default function App() {
 
           {/* Actions */}
           <section className="flex flex-wrap gap-3">
-            <button className="rounded-xl bg-blue-600 text-white px-4 py-2.5 hover:bg-blue-700">Generera rapport (PDF)</button>
-            <button className="rounded-xl border px-4 py-2.5 hover:bg-gray-50">Exportera API-output (JSON)</button>
-            <button className="rounded-xl border px-4 py-2.5 hover:bg-gray-50">Dela med mäklare/bank</button>
+            <button className="rounded-xl bg-primary text-primary-foreground px-4 py-2.5 hover:opacity-90">
+              Generera rapport (PDF)
+            </button>
+            <button className="rounded-xl border border-border px-4 py-2.5 hover:bg-muted">
+              Exportera API-output (JSON)
+            </button>
+            <button className="rounded-xl border border-border px-4 py-2.5 hover:bg-muted">
+              Dela med mäklare/bank
+            </button>
           </section>
 
           {/* Footnotes / API integration hints */}
-          <section className="rounded-2xl p-4 bg-white/60 border border-dashed">
-            <div className="text-xs text-gray-600">
-              <div className="font-semibold mb-1">API & Datakällor (exempel)</div>
+          <section className="rounded-2xl p-4 bg-card/70 border border-dashed border-border">
+            <div className="text-xs text-muted-foreground">
+              <div className="font-semibold mb-1 text-foreground">API & Datakällor (exempel)</div>
               <ul className="list-disc pl-5 space-y-1">
                 <li>Hemnet/Booli jämförbara försäljningar (projekt/sales endpoint)</li>
                 <li>Boverket OVK & energideklaration</li>
