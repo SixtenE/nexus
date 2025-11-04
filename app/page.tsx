@@ -1,5 +1,5 @@
 import { Building2, Shield, Sparkles, TrendingUp } from "lucide-react";
-import PropertySearch from "./components/PropertySearch";
+import PropertySearch from "@/components/PropertySearch";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
