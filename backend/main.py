@@ -60,3 +60,30 @@ def estimate(payload: ValuationInput):
     )
 
 # Run with: uvicorn backend.main:app --reload
+
+# --- Added: simple data endpoint for Stockholm ---
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import HTTPException
+import json, pathlib
+
+# Allow local Next.js dev host
+if not any(isinstance(m, CORSMiddleware) for m in getattr(app, "user_middleware", [])):
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["http://localhost:3000"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
+DATA_PATH = pathlib.Path(__file__).resolve().parents[1] / "data" / "boverket_stockholm_100.json"
+
+@app.get("/api/data/stockholm")
+def get_stockholm_data():
+    try:
+        payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+        rows = payload.get("energideklarationer", [])
+        return {"rows": rows, "count": len(rows)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
