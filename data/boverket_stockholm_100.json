@@ -1,0 +1,2304 @@
+{
+  "energideklarationer": [
+    {
+      "id": 200000101,
+      "energiklass": "C",
+      "primarenergital": "67 kWh/m² och år",
+      "energiprestanda": "51 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2002,
+      "utförd": "2019-08-31",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 643:150",
+          "adresser": [
+            {
+              "adress": "Rådmansgatan 16",
+              "postnummer": "10745",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000102,
+      "energiklass": "A",
+      "primarenergital": "38 kWh/m² och år",
+      "energiprestanda": "30 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1985,
+      "utförd": "2020-02-04",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 62:159",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 92",
+              "postnummer": "10677",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000103,
+      "energiklass": "E",
+      "primarenergital": "161 kWh/m² och år",
+      "energiprestanda": "142 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2010,
+      "utförd": "2022-03-25",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 429:43",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 10",
+              "postnummer": "10624",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000104,
+      "energiklass": "G",
+      "primarenergital": "312 kWh/m² och år",
+      "energiprestanda": "295 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1967,
+      "utförd": "2024-04-25",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 592:175",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 8",
+              "postnummer": "11762",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000105,
+      "energiklass": "E",
+      "primarenergital": "186 kWh/m² och år",
+      "energiprestanda": "163 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2020-11-12",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 839:111",
+          "adresser": [
+            {
+              "adress": "Odengatan 52",
+              "postnummer": "11240",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000106,
+      "energiklass": "E",
+      "primarenergital": "141 kWh/m² och år",
+      "energiprestanda": "115 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2020-08-19",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 580:82",
+          "adresser": [
+            {
+              "adress": "Sankt Eriksgatan 69",
+              "postnummer": "11724",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000107,
+      "energiklass": "D",
+      "primarenergital": "125 kWh/m² och år",
+      "energiprestanda": "115 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2022-10-24",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 581:39",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 7",
+              "postnummer": "10100",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000108,
+      "energiklass": "G",
+      "primarenergital": "332 kWh/m² och år",
+      "energiprestanda": "324 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2015,
+      "utförd": "2022-07-01",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 351:190",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 19",
+              "postnummer": "10867",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000109,
+      "energiklass": "F",
+      "primarenergital": "259 kWh/m² och år",
+      "energiprestanda": "230 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1987,
+      "utförd": "2020-11-15",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 555:129",
+          "adresser": [
+            {
+              "adress": "Västerlånggatan 99",
+              "postnummer": "10645",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000110,
+      "energiklass": "D",
+      "primarenergital": "108 kWh/m² och år",
+      "energiprestanda": "85 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2008,
+      "utförd": "2021-11-27",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 828:186",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 89",
+              "postnummer": "11557",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000111,
+      "energiklass": "B",
+      "primarenergital": "67 kWh/m² och år",
+      "energiprestanda": "53 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2023-05-11",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 809:163",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 62",
+              "postnummer": "10544",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000112,
+      "energiklass": "E",
+      "primarenergital": "194 kWh/m² och år",
+      "energiprestanda": "166 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2019,
+      "utförd": "2022-12-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 15:186",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 71",
+              "postnummer": "10121",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000113,
+      "energiklass": "D",
+      "primarenergital": "137 kWh/m² och år",
+      "energiprestanda": "118 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1963,
+      "utförd": "2019-09-07",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 598:133",
+          "adresser": [
+            {
+              "adress": "Västerlånggatan 115",
+              "postnummer": "11778",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000114,
+      "energiklass": "D",
+      "primarenergital": "105 kWh/m² och år",
+      "energiprestanda": "82 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2010,
+      "utförd": "2020-03-10",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 284:11",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 8",
+              "postnummer": "10295",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000115,
+      "energiklass": "D",
+      "primarenergital": "128 kWh/m² och år",
+      "energiprestanda": "110 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1981,
+      "utförd": "2025-04-10",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 427:32",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 108",
+              "postnummer": "11240",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000116,
+      "energiklass": "C",
+      "primarenergital": "78 kWh/m² och år",
+      "energiprestanda": "64 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2004,
+      "utförd": "2021-06-18",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 684:58",
+          "adresser": [
+            {
+              "adress": "Karlavägen 51",
+              "postnummer": "11266",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000117,
+      "energiklass": "G",
+      "primarenergital": "325 kWh/m² och år",
+      "energiprestanda": "310 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2020-04-07",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 272:70",
+          "adresser": [
+            {
+              "adress": "Sveavägen 113",
+              "postnummer": "10186",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000118,
+      "energiklass": "C",
+      "primarenergital": "98 kWh/m² och år",
+      "energiprestanda": "76 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1941,
+      "utförd": "2023-10-09",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 91:67",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 35",
+              "postnummer": "10749",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000119,
+      "energiklass": "A",
+      "primarenergital": "52 kWh/m² och år",
+      "energiprestanda": "41 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2021-01-11",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 313:136",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 120",
+              "postnummer": "11743",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000120,
+      "energiklass": "D",
+      "primarenergital": "155 kWh/m² och år",
+      "energiprestanda": "138 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2023-11-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 316:177",
+          "adresser": [
+            {
+              "adress": "Sibyllegatan 70",
+              "postnummer": "11618",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000121,
+      "energiklass": "C",
+      "primarenergital": "84 kWh/m² och år",
+      "energiprestanda": "60 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2019-12-13",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 249:178",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 112",
+              "postnummer": "11713",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000122,
+      "energiklass": "D",
+      "primarenergital": "153 kWh/m² och år",
+      "energiprestanda": "141 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1970,
+      "utförd": "2023-04-13",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 672:52",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 61",
+              "postnummer": "11614",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000123,
+      "energiklass": "B",
+      "primarenergital": "59 kWh/m² och år",
+      "energiprestanda": "33 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2022,
+      "utförd": "2022-08-28",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 634:165",
+          "adresser": [
+            {
+              "adress": "Sibyllegatan 20",
+              "postnummer": "11841",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000124,
+      "energiklass": "F",
+      "primarenergital": "293 kWh/m² och år",
+      "energiprestanda": "267 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1932,
+      "utförd": "2019-12-15",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 370:27",
+          "adresser": [
+            {
+              "adress": "Storgatan 6",
+              "postnummer": "10752",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000125,
+      "energiklass": "D",
+      "primarenergital": "122 kWh/m² och år",
+      "energiprestanda": "104 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2002,
+      "utförd": "2021-10-29",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 747:194",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 109",
+              "postnummer": "11340",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000126,
+      "energiklass": "E",
+      "primarenergital": "196 kWh/m² och år",
+      "energiprestanda": "189 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1975,
+      "utförd": "2025-05-14",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 498:69",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 2",
+              "postnummer": "11162",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000127,
+      "energiklass": "E",
+      "primarenergital": "174 kWh/m² och år",
+      "energiprestanda": "144 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2009,
+      "utförd": "2019-11-10",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 215:54",
+          "adresser": [
+            {
+              "adress": "Kungsholmsgatan 58",
+              "postnummer": "11496",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000128,
+      "energiklass": "B",
+      "primarenergital": "71 kWh/m² och år",
+      "energiprestanda": "43 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1992,
+      "utförd": "2019-01-15",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 310:187",
+          "adresser": [
+            {
+              "adress": "Sibyllegatan 88",
+              "postnummer": "11515",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000129,
+      "energiklass": "C",
+      "primarenergital": "73 kWh/m² och år",
+      "energiprestanda": "45 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2023-05-29",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 948:110",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 112",
+              "postnummer": "10469",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000130,
+      "energiklass": "C",
+      "primarenergital": "92 kWh/m² och år",
+      "energiprestanda": "68 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2000,
+      "utförd": "2025-03-19",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 956:188",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 27",
+              "postnummer": "10150",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000131,
+      "energiklass": "D",
+      "primarenergital": "143 kWh/m² och år",
+      "energiprestanda": "131 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2008,
+      "utförd": "2021-09-04",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 172:165",
+          "adresser": [
+            {
+              "adress": "Hantverkargatan 62",
+              "postnummer": "11222",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000132,
+      "energiklass": "C",
+      "primarenergital": "73 kWh/m² och år",
+      "energiprestanda": "66 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1982,
+      "utförd": "2021-09-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 768:106",
+          "adresser": [
+            {
+              "adress": "Västerlånggatan 34",
+              "postnummer": "10120",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000133,
+      "energiklass": "E",
+      "primarenergital": "186 kWh/m² och år",
+      "energiprestanda": "162 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1957,
+      "utförd": "2023-04-25",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 977:80",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 83",
+              "postnummer": "11542",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000134,
+      "energiklass": "A",
+      "primarenergital": "52 kWh/m² och år",
+      "energiprestanda": "25 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1987,
+      "utförd": "2020-09-24",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 740:180",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 67",
+              "postnummer": "10945",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000135,
+      "energiklass": "B",
+      "primarenergital": "52 kWh/m² och år",
+      "energiprestanda": "33 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2020-02-12",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 268:58",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 39",
+              "postnummer": "10497",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000136,
+      "energiklass": "A",
+      "primarenergital": "35 kWh/m² och år",
+      "energiprestanda": "20 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2019-03-31",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 264:59",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 64",
+              "postnummer": "11183",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000137,
+      "energiklass": "G",
+      "primarenergital": "349 kWh/m² och år",
+      "energiprestanda": "331 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1980,
+      "utförd": "2021-03-05",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 779:76",
+          "adresser": [
+            {
+              "adress": "Sveavägen 60",
+              "postnummer": "10371",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000138,
+      "energiklass": "D",
+      "primarenergital": "92 kWh/m² och år",
+      "energiprestanda": "72 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2021-01-24",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 116:21",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 58",
+              "postnummer": "11850",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000139,
+      "energiklass": "B",
+      "primarenergital": "62 kWh/m² och år",
+      "energiprestanda": "55 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1973,
+      "utförd": "2023-09-18",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 366:197",
+          "adresser": [
+            {
+              "adress": "Karlavägen 72",
+              "postnummer": "10489",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000140,
+      "energiklass": "B",
+      "primarenergital": "56 kWh/m² och år",
+      "energiprestanda": "45 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2023-03-19",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 943:16",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 60",
+              "postnummer": "10922",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000141,
+      "energiklass": "E",
+      "primarenergital": "187 kWh/m² och år",
+      "energiprestanda": "175 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2019-04-10",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 980:120",
+          "adresser": [
+            {
+              "adress": "Sveavägen 14",
+              "postnummer": "11832",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000142,
+      "energiklass": "F",
+      "primarenergital": "233 kWh/m² och år",
+      "energiprestanda": "222 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2024-09-27",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 418:17",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 51",
+              "postnummer": "10353",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000143,
+      "energiklass": "D",
+      "primarenergital": "100 kWh/m² och år",
+      "energiprestanda": "70 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1987,
+      "utförd": "2023-09-04",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 552:199",
+          "adresser": [
+            {
+              "adress": "Odengatan 80",
+              "postnummer": "10865",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000144,
+      "energiklass": "E",
+      "primarenergital": "158 kWh/m² och år",
+      "energiprestanda": "146 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2023-06-11",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 828:26",
+          "adresser": [
+            {
+              "adress": "Fleminggatan 32",
+              "postnummer": "10765",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000145,
+      "energiklass": "G",
+      "primarenergital": "306 kWh/m² och år",
+      "energiprestanda": "296 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1971,
+      "utförd": "2024-09-30",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 797:171",
+          "adresser": [
+            {
+              "adress": "Götgatan 58",
+              "postnummer": "11893",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000146,
+      "energiklass": "D",
+      "primarenergital": "116 kWh/m² och år",
+      "energiprestanda": "89 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2010,
+      "utförd": "2023-03-03",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 209:9",
+          "adresser": [
+            {
+              "adress": "Götgatan 80",
+              "postnummer": "11179",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000147,
+      "energiklass": "A",
+      "primarenergital": "31 kWh/m² och år",
+      "energiprestanda": "20 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1978,
+      "utförd": "2025-05-09",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 885:197",
+          "adresser": [
+            {
+              "adress": "Västerlånggatan 54",
+              "postnummer": "11118",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000148,
+      "energiklass": "C",
+      "primarenergital": "81 kWh/m² och år",
+      "energiprestanda": "57 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1946,
+      "utförd": "2023-06-13",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 517:44",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 74",
+              "postnummer": "11854",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000149,
+      "energiklass": "C",
+      "primarenergital": "69 kWh/m² och år",
+      "energiprestanda": "40 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2001,
+      "utförd": "2019-12-20",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 805:57",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 89",
+              "postnummer": "10755",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000150,
+      "energiklass": "D",
+      "primarenergital": "93 kWh/m² och år",
+      "energiprestanda": "64 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2022-08-20",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 870:161",
+          "adresser": [
+            {
+              "adress": "Karlavägen 50",
+              "postnummer": "11663",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000151,
+      "energiklass": "C",
+      "primarenergital": "81 kWh/m² och år",
+      "energiprestanda": "64 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2009,
+      "utförd": "2024-04-22",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 368:111",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 14",
+              "postnummer": "10231",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000152,
+      "energiklass": "E",
+      "primarenergital": "209 kWh/m² och år",
+      "energiprestanda": "185 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2019-09-29",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 135:126",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 94",
+              "postnummer": "10298",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000153,
+      "energiklass": "E",
+      "primarenergital": "165 kWh/m² och år",
+      "energiprestanda": "149 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1962,
+      "utförd": "2025-08-21",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 382:10",
+          "adresser": [
+            {
+              "adress": "Fleminggatan 79",
+              "postnummer": "10426",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000154,
+      "energiklass": "C",
+      "primarenergital": "74 kWh/m² och år",
+      "energiprestanda": "48 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2021-10-29",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 817:96",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 81",
+              "postnummer": "11855",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000155,
+      "energiklass": "G",
+      "primarenergital": "297 kWh/m² och år",
+      "energiprestanda": "286 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1995,
+      "utförd": "2019-01-08",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 631:161",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 29",
+              "postnummer": "10397",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000156,
+      "energiklass": "D",
+      "primarenergital": "126 kWh/m² och år",
+      "energiprestanda": "112 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1978,
+      "utförd": "2025-08-09",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 849:122",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 27",
+              "postnummer": "11738",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000157,
+      "energiklass": "A",
+      "primarenergital": "54 kWh/m² och år",
+      "energiprestanda": "25 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1985,
+      "utförd": "2025-09-01",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 170:1",
+          "adresser": [
+            {
+              "adress": "Rådmansgatan 57",
+              "postnummer": "11354",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000158,
+      "energiklass": "D",
+      "primarenergital": "134 kWh/m² och år",
+      "energiprestanda": "124 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2016,
+      "utförd": "2020-12-16",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 641:13",
+          "adresser": [
+            {
+              "adress": "Kungsholmsgatan 40",
+              "postnummer": "10407",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000159,
+      "energiklass": "E",
+      "primarenergital": "195 kWh/m² och år",
+      "energiprestanda": "184 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1968,
+      "utförd": "2019-08-04",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 808:134",
+          "adresser": [
+            {
+              "adress": "Fleminggatan 82",
+              "postnummer": "11802",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000160,
+      "energiklass": "D",
+      "primarenergital": "101 kWh/m² och år",
+      "energiprestanda": "78 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1971,
+      "utförd": "2025-09-28",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 860:136",
+          "adresser": [
+            {
+              "adress": "Sveavägen 49",
+              "postnummer": "11583",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000161,
+      "energiklass": "F",
+      "primarenergital": "271 kWh/m² och år",
+      "energiprestanda": "262 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1933,
+      "utförd": "2022-11-13",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 43:36",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 90",
+              "postnummer": "10131",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000162,
+      "energiklass": "E",
+      "primarenergital": "200 kWh/m² och år",
+      "energiprestanda": "174 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2021-10-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 36:193",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 27",
+              "postnummer": "10134",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000163,
+      "energiklass": "F",
+      "primarenergital": "228 kWh/m² och år",
+      "energiprestanda": "222 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2023-02-16",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 295:159",
+          "adresser": [
+            {
+              "adress": "Drottninggatan 99",
+              "postnummer": "11971",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000164,
+      "energiklass": "E",
+      "primarenergital": "148 kWh/m² och år",
+      "energiprestanda": "128 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2024-11-14",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 357:126",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 37",
+              "postnummer": "10104",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000165,
+      "energiklass": "E",
+      "primarenergital": "185 kWh/m² och år",
+      "energiprestanda": "157 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2019-11-28",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 335:92",
+          "adresser": [
+            {
+              "adress": "Sibyllegatan 101",
+              "postnummer": "10743",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000166,
+      "energiklass": "G",
+      "primarenergital": "321 kWh/m² och år",
+      "energiprestanda": "311 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2010,
+      "utförd": "2024-12-17",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 596:84",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 97",
+              "postnummer": "10456",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000167,
+      "energiklass": "F",
+      "primarenergital": "231 kWh/m² och år",
+      "energiprestanda": "210 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2019,
+      "utförd": "2021-12-31",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 160:64",
+          "adresser": [
+            {
+              "adress": "Hantverkargatan 97",
+              "postnummer": "10840",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000168,
+      "energiklass": "D",
+      "primarenergital": "111 kWh/m² och år",
+      "energiprestanda": "101 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1969,
+      "utförd": "2023-11-17",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 934:28",
+          "adresser": [
+            {
+              "adress": "Fleminggatan 26",
+              "postnummer": "10753",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000169,
+      "energiklass": "F",
+      "primarenergital": "293 kWh/m² och år",
+      "energiprestanda": "281 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2024,
+      "utförd": "2023-10-28",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 235:171",
+          "adresser": [
+            {
+              "adress": "Rådmansgatan 76",
+              "postnummer": "11966",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000170,
+      "energiklass": "E",
+      "primarenergital": "150 kWh/m² och år",
+      "energiprestanda": "130 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2013,
+      "utförd": "2024-02-08",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 692:170",
+          "adresser": [
+            {
+              "adress": "Storgatan 80",
+              "postnummer": "11630",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000171,
+      "energiklass": "E",
+      "primarenergital": "189 kWh/m² och år",
+      "energiprestanda": "171 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2018,
+      "utförd": "2025-01-25",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 17:164",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 92",
+              "postnummer": "11624",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000172,
+      "energiklass": "C",
+      "primarenergital": "89 kWh/m² och år",
+      "energiprestanda": "82 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2019-02-24",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 716:173",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 54",
+              "postnummer": "11743",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000173,
+      "energiklass": "B",
+      "primarenergital": "56 kWh/m² och år",
+      "energiprestanda": "28 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1938,
+      "utförd": "2024-04-05",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 987:38",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 93",
+              "postnummer": "10934",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000174,
+      "energiklass": "D",
+      "primarenergital": "139 kWh/m² och år",
+      "energiprestanda": "128 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2005,
+      "utförd": "2019-01-12",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 310:83",
+          "adresser": [
+            {
+              "adress": "Fleminggatan 46",
+              "postnummer": "10770",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000175,
+      "energiklass": "C",
+      "primarenergital": "86 kWh/m² och år",
+      "energiprestanda": "61 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2019-02-17",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 623:26",
+          "adresser": [
+            {
+              "adress": "Hornsgatan 10",
+              "postnummer": "11356",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000176,
+      "energiklass": "F",
+      "primarenergital": "260 kWh/m² och år",
+      "energiprestanda": "231 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1986,
+      "utförd": "2021-03-19",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 81:190",
+          "adresser": [
+            {
+              "adress": "Sibyllegatan 89",
+              "postnummer": "10643",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000177,
+      "energiklass": "D",
+      "primarenergital": "122 kWh/m² och år",
+      "energiprestanda": "105 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2020-10-18",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 304:120",
+          "adresser": [
+            {
+              "adress": "Drottninggatan 60",
+              "postnummer": "11781",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000178,
+      "energiklass": "C",
+      "primarenergital": "94 kWh/m² och år",
+      "energiprestanda": "81 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2015,
+      "utförd": "2020-08-14",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 130:87",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 28",
+              "postnummer": "11740",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000179,
+      "energiklass": "C",
+      "primarenergital": "95 kWh/m² och år",
+      "energiprestanda": "81 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1977,
+      "utförd": "2024-09-05",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 121:85",
+          "adresser": [
+            {
+              "adress": "Västerlånggatan 27",
+              "postnummer": "11910",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000180,
+      "energiklass": "E",
+      "primarenergital": "173 kWh/m² och år",
+      "energiprestanda": "158 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1943,
+      "utförd": "2024-04-29",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 513:140",
+          "adresser": [
+            {
+              "adress": "Regeringsgatan 99",
+              "postnummer": "10907",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000181,
+      "energiklass": "D",
+      "primarenergital": "136 kWh/m² och år",
+      "energiprestanda": "128 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2001,
+      "utförd": "2020-02-17",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 317:144",
+          "adresser": [
+            {
+              "adress": "Storgatan 48",
+              "postnummer": "10905",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000182,
+      "energiklass": "F",
+      "primarenergital": "293 kWh/m² och år",
+      "energiprestanda": "267 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2022,
+      "utförd": "2024-01-03",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 607:169",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 2",
+              "postnummer": "11708",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000183,
+      "energiklass": "E",
+      "primarenergital": "192 kWh/m² och år",
+      "energiprestanda": "163 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1941,
+      "utförd": "2024-04-18",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 752:191",
+          "adresser": [
+            {
+              "adress": "Storgatan 36",
+              "postnummer": "10561",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000184,
+      "energiklass": "C",
+      "primarenergital": "76 kWh/m² och år",
+      "energiprestanda": "49 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": null,
+      "utförd": "2019-09-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 319:80",
+          "adresser": [
+            {
+              "adress": "Storgatan 114",
+              "postnummer": "10498",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000185,
+      "energiklass": "G",
+      "primarenergital": "307 kWh/m² och år",
+      "energiprestanda": "299 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2020,
+      "utförd": "2024-05-07",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 804:194",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 100",
+              "postnummer": "11378",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000186,
+      "energiklass": "C",
+      "primarenergital": "95 kWh/m² och år",
+      "energiprestanda": "75 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 1969,
+      "utförd": "2023-03-23",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 790:60",
+          "adresser": [
+            {
+              "adress": "Tegnérgatan 88",
+              "postnummer": "11716",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000187,
+      "energiklass": "E",
+      "primarenergital": "197 kWh/m² och år",
+      "energiprestanda": "169 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2008,
+      "utförd": "2022-11-21",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 391:52",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 11",
+              "postnummer": "11916",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000188,
+      "energiklass": "C",
+      "primarenergital": "92 kWh/m² och år",
+      "energiprestanda": "73 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1975,
+      "utförd": "2023-06-19",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 535:83",
+          "adresser": [
+            {
+              "adress": "Rådmansgatan 67",
+              "postnummer": "11953",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000189,
+      "energiklass": "B",
+      "primarenergital": "50 kWh/m² och år",
+      "energiprestanda": "44 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1976,
+      "utförd": "2024-03-13",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 32:89",
+          "adresser": [
+            {
+              "adress": "Nybrogatan 20",
+              "postnummer": "11711",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000190,
+      "energiklass": "B",
+      "primarenergital": "67 kWh/m² och år",
+      "energiprestanda": "51 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2005,
+      "utförd": "2021-11-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 388:22",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 44",
+              "postnummer": "10285",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000191,
+      "energiklass": "A",
+      "primarenergital": "44 kWh/m² och år",
+      "energiprestanda": "22 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1941,
+      "utförd": "2020-01-03",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 871:41",
+          "adresser": [
+            {
+              "adress": "Kungsholmsgatan 51",
+              "postnummer": "10559",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000192,
+      "energiklass": "G",
+      "primarenergital": "343 kWh/m² och år",
+      "energiprestanda": "319 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": 2020,
+      "utförd": "2019-08-17",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 6:51",
+          "adresser": [
+            {
+              "adress": "Karlavägen 19",
+              "postnummer": "11873",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000193,
+      "energiklass": "D",
+      "primarenergital": "115 kWh/m² och år",
+      "energiprestanda": "90 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2000,
+      "utförd": "2021-03-10",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 957:159",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 21",
+              "postnummer": "10179",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000194,
+      "energiklass": "E",
+      "primarenergital": "143 kWh/m² och år",
+      "energiprestanda": "135 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1976,
+      "utförd": "2019-08-21",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 911:38",
+          "adresser": [
+            {
+              "adress": "Götgatan 92",
+              "postnummer": "11666",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000195,
+      "energiklass": "C",
+      "primarenergital": "76 kWh/m² och år",
+      "energiprestanda": "48 kWh/m² och år",
+      "radonmatning": "Utförd",
+      "ventilationskontroll": "Ej utförd",
+      "byggnadsar": null,
+      "utförd": "2021-05-14",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 264:194",
+          "adresser": [
+            {
+              "adress": "Norrlandsgatan 62",
+              "postnummer": "11222",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000196,
+      "energiklass": "C",
+      "primarenergital": "83 kWh/m² och år",
+      "energiprestanda": "74 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1965,
+      "utförd": "2024-09-23",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 853:135",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 57",
+              "postnummer": "10908",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000197,
+      "energiklass": "C",
+      "primarenergital": "74 kWh/m² och år",
+      "energiprestanda": "54 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2019,
+      "utförd": "2022-01-26",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 686:182",
+          "adresser": [
+            {
+              "adress": "Götgatan 27",
+              "postnummer": "10727",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000198,
+      "energiklass": "D",
+      "primarenergital": "115 kWh/m² och år",
+      "energiprestanda": "89 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2000,
+      "utförd": "2024-05-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 191:145",
+          "adresser": [
+            {
+              "adress": "Valhallavägen 112",
+              "postnummer": "11354",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000199,
+      "energiklass": "B",
+      "primarenergital": "67 kWh/m² och år",
+      "energiprestanda": "42 kWh/m² och år",
+      "radonmatning": "Ej känd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 2022,
+      "utförd": "2025-06-18",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 507:115",
+          "adresser": [
+            {
+              "adress": "Birger Jarlsgatan 38",
+              "postnummer": "10848",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 200000200,
+      "energiklass": "D",
+      "primarenergital": "111 kWh/m² och år",
+      "energiprestanda": "105 kWh/m² och år",
+      "radonmatning": "Inte utförd",
+      "ventilationskontroll": "Utförd",
+      "byggnadsar": 1942,
+      "utförd": "2021-12-06",
+      "fastigheter": [
+        {
+          "kommun": "Stockholm",
+          "fastighetsbeteckning": "KVARTER 245:180",
+          "adresser": [
+            {
+              "adress": "Storgatan 108",
+              "postnummer": "11635",
+              "postort": "Stockholm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
