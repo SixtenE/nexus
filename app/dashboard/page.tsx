@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
 import PropertyHealthGauge from "@/components/PropertyHealthGauge";
 import ValueConfidenceInterval from "@/components/ValueConfidenceInterval";
 import RiskLevelCard from "@/components/RiskLevelCard";
@@ -8,6 +9,9 @@ import PriceChart from "@/components/PriceChart";
 import FactorAnalysis from "@/components/FactorAnalysis";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Download, Home } from "lucide-react";
+declare const html2canvas: any;
+declare const jsPDF: any;
+
 
 const propertyData = {
   address: "Storgatan 1, Stockholm",
@@ -21,7 +25,7 @@ const propertyData = {
   riskFactors: [
     "Behöver uppgradering av elinstallationer",
     "Närhet till planerad byggarbetsplats",
-    "Hög energiförbrukning jämfört med liknande fastigheter",
+    "Hög energiförbrukning jämförts med liknande fastigheter",
   ],
   priceHistory: [
     { date: "2021-01", price: 4000000 },
@@ -54,7 +58,7 @@ const propertyData = {
       name: "Marknadsförhållanden",
       score: 65,
       weight: 10,
-      description: "Marknaden är stabil med måttlig efterfrågan i området.",
+      description: "Marknaden är stabil with måttlig efterfrågan i området.",
       details:
           "Priserna i området har ökat stadigt men i långsammare takt än i centrala Stockholm.",
     },
@@ -78,6 +82,7 @@ const toTitleCase = (str: string) => {
 const Dashboard = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [librariesLoaded, setLibrariesLoaded] = useState(false);
 
   const urlAddress = searchParams.get('address');
 
@@ -89,84 +94,157 @@ const Dashboard = () => {
     router.push("/");
   };
 
+  useEffect(() => {
+    let intervalId: NodeJS.Timeout;
+
+    const startCheck = () => {
+      intervalId = setInterval(() => {
+        if (typeof (window as any).html2canvas !== 'undefined' && typeof (window as any).jspdf !== 'undefined') {
+          setLibrariesLoaded(true);
+          clearInterval(intervalId);
+        }
+      }, 500);
+    };
+
+    startCheck();
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
+  const handleExportPDF = async () => {
+    const mainContent = document.getElementById('dashboard-content');
+
+    if (!mainContent) {
+      console.error("Dashboard content element not found.");
+      return;
+    }
+
+    try {
+      const canvas = await (window as any).html2canvas(mainContent, {
+        scale: 2,
+        logging: false,
+        useCORS: true,
+      });
+
+      const imgData = canvas.toDataURL('image/jpeg', 0.9);
+
+      const { jsPDF } = (window as any).jspdf;
+      const pdf = new jsPDF('p', 'mm', 'a4');
+
+      const imgProps= pdf.getImageProperties(imgData);
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+      pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
+
+      const filename = `Fastighetsanalys_${currentAddress.replace(/[\s,]/g, '_')}.pdf`;
+      pdf.save(filename);
+
+    } catch (error) {
+      console.error("Fel vid export till PDF:", error);
+      alert("Ett fel uppstod under PDF-exporten. Kontrollera konsola för detaljer.");
+    }
+  };
+
   return (
-      <div className="min-h-screen bg-background">
-        <header className="border-b border-border bg-card shadow-sm sticky top-0 z-10">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
+      <>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+        <div className="min-h-screen bg-background">
+          <header className="sticky top-0 z-10 bg-card/80 backdrop-blur border-b border-border">
+            <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={handleGoBack}
-                >
-                  <ArrowLeft className="w-5 h-5" />
+
+                <Button variant="ghost" size="icon" onClick={handleGoBack} className="text-foreground shrink-0">
+                  <ArrowLeft className="w-6 h-6" />
                 </Button>
-                <div>
-                  <h1 className="text-2xl font-bold text-foreground">
+
+                <div className="hidden sm:grid h-9 w-9 rounded-2xl bg-primary text-primary-foreground place-items-center font-bold text-base shrink-0">
+                  AI
+                </div>
+
+                <div className="min-w-0">
+                  <h1 className="text-sm font-semibold text-foreground truncate">
                     Fastighetsanalys
                   </h1>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-xs text-muted-foreground truncate">
                     {currentAddress}
                   </p>
                 </div>
               </div>
-              <div className="flex gap-2">
-                <Button variant="outline" size="sm">
+
+              <div className="flex items-center gap-3">
+                <div className="hidden lg:flex items-center gap-2 text-xs text-muted-foreground">
+                  <span className="rounded-full border border-border bg-secondary px-2 py-0.5 text-secondary-foreground">Open Data</span>
+                  <span className="rounded-full border border-border bg-secondary px-2 py-0.5 text-secondary-foreground">AI Model</span>
+                  <span className="rounded-full border border-border bg-secondary px-2 py-0.5 text-secondary-foreground">Workflow</span>
+                </div>
+                <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={handleExportPDF}
+                    title="Exportera rapporten som PDF-fil"
+                    disabled={!librariesLoaded}
+                >
                   <Download className="w-4 h-4 mr-2" />
-                  Exportera PDF
+                  {librariesLoaded
+                      ? "Exportera PDF"
+                      : "Laddar bibliotek..."}
                 </Button>
               </div>
             </div>
-          </div>
-        </header>
+          </header>
 
-        <main className="container mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <PropertyHealthGauge score={propertyData.healthScore} />
-            <ValueConfidenceInterval
-                minValue={propertyData.valueInterval.min}
-                maxValue={propertyData.valueInterval.max}
-                confidence={propertyData.valueInterval.confidence}
-            />
-            <RiskLevelCard
-                level={propertyData.riskLevel}
-                factors={propertyData.riskFactors}
-            />
-          </div>
+          <main id="dashboard-content" className="container mx-auto px-4 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <PropertyHealthGauge score={propertyData.healthScore} />
+              <ValueConfidenceInterval
+                  minValue={propertyData.valueInterval.min}
+                  maxValue={propertyData.valueInterval.max}
+                  confidence={propertyData.valueInterval.confidence}
+              />
+              <RiskLevelCard
+                  level={propertyData.riskLevel}
+                  factors={propertyData.riskFactors}
+              />
+            </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-            <PriceChart
-                data={propertyData.priceHistory.map(({ date, price }) => ({
-                  month: date,
-                  price,
-                  avgPrice: price,
-                }))}
-            />
-            <FactorAnalysis factors={propertyData.factors} />
-          </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+              <PriceChart
+                  data={propertyData.priceHistory.map(({ date, price }) => ({
+                    month: date,
+                    price,
+                    avgPrice: price,
+                  }))}
+              />
+              <FactorAnalysis factors={propertyData.factors} />
+            </div>
 
-          <div className="bg-gradient-primary rounded-xl p-8 text-primary-foreground shadow-lg">
-            <h2 className="text-2xl font-bold mb-4">
-              AI-genererad Sammanfattning
-            </h2>
-            <p className="text-lg leading-relaxed opacity-95">
-              Denna fastighet visar <strong>goda värden</strong> med ett
-              hälsoindex på {propertyData.healthScore}/100. Det uppskattade värdet
-              ligger mellan{" "}
-              {(propertyData.valueInterval.min / 1000000).toFixed(1)}-
-              {(propertyData.valueInterval.max / 1000000).toFixed(1)} M SEK med{" "}
-              {propertyData.valueInterval.confidence}% tillförlitlighet.
-              {propertyData.riskLevel === "low" &&
-                  " Risknivån bedöms som låg tack vare starka tekniska och ekonomiska faktorer."}
-              {propertyData.riskLevel === "medium" &&
-                  " Risknivån är måttlig med vissa faktorer som bör beaktas."}
-              {propertyData.riskLevel === "high" &&
-                  " Observera att risknivån är hög och flera faktorer kräver uppmärksamhet."}
-            </p>
-          </div>
-        </main>
-      </div>
+            <div className="bg-gradient-primary rounded-xl p-8 text-primary-foreground shadow-lg">
+              <h2 className="text-2xl font-bold mb-4">
+                AI-genererad Sammanfattning
+              </h2>
+              <p className="text-lg leading-relaxed opacity-95">
+                Denna fastighet visar <strong>goda värden</strong> med ett
+                hälsoindex på {propertyData.healthScore}/100. Det uppskattade värdet
+                ligger mellan{" "}
+                {(propertyData.valueInterval.min / 1000000).toFixed(1)}-
+                {(propertyData.valueInterval.max / 1000000).toFixed(1)} M SEK med{" "}
+                {propertyData.valueInterval.confidence}% tillförlitlighet.
+                {propertyData.riskLevel === "low" &&
+                    " Risknivån bedöms som låg tack vare starka tekniska och ekonomiska faktorer."}
+                {propertyData.riskLevel === "medium" &&
+                    " Risknivån är måttlig med vissa faktorer som bör beaktas."}
+                {propertyData.riskLevel === "high" &&
+                    " Observera att risknivån är hög och flera faktorer kräver uppmärksamhet."}
+              </p>
+            </div>
+          </main>
+        </div>
+      </>
   );
 };
 
