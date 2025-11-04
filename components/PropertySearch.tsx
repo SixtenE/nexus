@@ -6,42 +6,54 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 
-const PropertySearch = () => {
+interface PropertySearchProps {
+    analyzeText: string;
+    searchPlaceholder: string;
+}
 
-  const router = useRouter();
-  const [address, setAddress] = useState("");
+const PropertySearch = ({ analyzeText, searchPlaceholder }: PropertySearchProps) => {
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+    const router = useRouter();
+    const [address, setAddress] = useState("");
+    const [addressError, setAddressError] = useState<string | null>(null);
 
-    const trimmedAddress = address.trim();
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        const trimmedAddress = address.trim();
 
-    if (trimmedAddress) {
-      const encodedAddress = encodeURIComponent(trimmedAddress);
+        if (!trimmedAddress) {
+            setAddressError("Fältet får inte vara tomt.");
+            return;
+        }
 
-      router.push(`/dashboard?address=${encodedAddress}`);
-    }
-  };
+        setAddressError(null);
+        const encodedAddress = encodeURIComponent(trimmedAddress);
+        router.push(`/dashboard?address=${encodedAddress}`);
+    };
 
-  return (
-      <form onSubmit={handleSubmit} className="w-full max-w-2xl">
-        <div className="flex gap-2">
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
-            <Input
-                type="text"
-                placeholder="Ange adress (t.ex. Storgatan 1, Stockholm)"
-                value={address}
-                onChange={(e) => setAddress(e.target.value)}
-                className="pl-10 h-12 text-lg"
-            />
-          </div>
-          <Button type="submit" size="lg" className="px-8">
-            Analysera
-          </Button>
-        </div>
-      </form>
-  );
+    return (
+        <form onSubmit={handleSubmit} className="w-full max-w-2xl">
+            <div className="flex gap-2">
+                <div className="relative flex-1">
+                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-5 h-5" />
+                    <Input
+                        type="text"
+                        placeholder={searchPlaceholder}
+                        value={address}
+                        onChange={(e) => {
+                            setAddress(e.target.value);
+                            if (addressError) setAddressError(null);
+                        }}
+                        className="pl-10 h-12 text-lg"
+                        error={addressError}
+                    />
+                </div>
+                <Button type="submit" size="lg" className="px-8">
+                    {analyzeText}
+                </Button>
+            </div>
+        </form>
+    );
 };
 
 export default PropertySearch;
