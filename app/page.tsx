@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { Building2, Shield, Sparkles, TrendingUp } from "lucide-react";
 import PropertySearch from "@/components/PropertySearch";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-export default async function Page() {
+export default function Page() {
   const features = [
     {
       icon: Building2,
@@ -13,95 +14,104 @@ export default async function Page() {
     {
       icon: TrendingUp,
       title: "Värdeanalys",
-      description:
-        "AI-driven värdering med konfidensintervall baserat på marknadsdata",
+      description: "AI-baserat intervall för marknadsvärde och konfidens",
     },
     {
       icon: Shield,
-      title: "Riskbedömning",
-      description: "Identifiering av ekonomiska och tekniska riskfaktorer",
+      title: "Risk & Hälsa",
+      description: "Samlad risknivå baserat på byggnad, ekonomi och miljö",
     },
     {
       icon: Sparkles,
-      title: "AI-insikter",
-      description:
-        "Naturligt språk-förklaringar av värdering och rekommendationer",
+      title: "Faktordrivare",
+      description: "Visualisering av vilka faktorer som påverkar värdet mest",
     },
   ];
 
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-primary">
+      <section className="relative overflow-hidden bg-gradient-radial from-primary/15 via-accent/10 to-background">
         <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]" />
-        <div className="container mx-auto px-4 py-24 relative">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-              AI-driven Fastighetsvärdering
+        <div className="relative container mx-auto px-4 py-20">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
+              AI-driven Fastighetsvärdering & Riskindex
             </h1>
-            <p className="text-xl md:text-2xl mb-12 opacity-90">
-              Få en komplett analys av din fastighet baserat på tekniska,
-              ekonomiska och miljömässiga faktorer
+            <p className="mt-4 text-lg text-muted-foreground">
+              Sök adress, få värdeintervall, risknivå och viktigaste faktordrivare – uppdaterat på begäran.
             </p>
-            <div className="flex justify-center">
+
+            <div className="mt-8">
               <PropertySearch />
+            </div>
+
+            <div className="mt-6 flex gap-3">
+              <Button size="lg" className="bg-primary text-primary-foreground">
+                Börja analysera
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-border text-foreground"
+              >
+                Lär dig mer
+              </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="container mx-auto px-4 py-20">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Avancerad Fastighetsanalys
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Vårt AI-system analyserar över 50 datapunkter för att ge dig den
-            mest kompletta bilden av din fastighet
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature, index) => (
-            <Card
-              key={index}
-              className="shadow-md hover:shadow-lg transition-all hover:-translate-y-1"
-            >
-              <CardContent className="p-6 text-center">
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <feature.icon className="w-6 h-6 " />
+      {/* Features */}
+      <section className="container mx-auto px-4 py-14">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {features.map((f, i) => (
+            <Card key={i} className="bg-card border-border">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="rounded-xl bg-primary/15 p-3">
+                    <f.icon className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-foreground">
+                      {f.title}
+                    </h3>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      {f.description}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {feature.description}
-                </p>
               </CardContent>
             </Card>
           ))}
         </div>
       </section>
 
-      {/* Demo Section */}
-      <section className="bg-muted py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Prova Demo-analyser
+      {/* CTA Strip */}
+      <section className="border-t border-border bg-card">
+        <div className="container mx-auto px-4 py-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="text-xl font-semibold text-foreground">
+              Vill du se ett exempel?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              Se exempel på hur vårt system analyserar olika fastigheter
+            <p className="text-sm text-muted-foreground">
+              Öppna dashboarden för en demo av visualiseringar och risknivåer.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8">
-                Stockholm - Hög Poäng
+          </div>
+          <div className="flex gap-3">
+            <Link href="/dashboard">
+              <Button className="bg-primary text-primary-foreground">
+                Visa dashboard
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8">
-                Göteborg - Medel Poäng
+            </Link>
+            <Link href="/realform">
+              <Button
+                variant="outline"
+                className="border-border text-foreground"
+              >
+                Manuell värdering
               </Button>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -109,7 +119,7 @@ export default async function Page() {
       {/* Footer */}
       <footer className="border-t border-border bg-card py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>AI-driven Fastighetsvärdering © 2024 - Demo Version</p>
+          <p>AI-driven Fastighetsvärdering © 2024 – Demo</p>
         </div>
       </footer>
     </div>
