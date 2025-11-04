@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import PropertyHealthGauge from "@/components/PropertyHealthGauge";
 import ValueConfidenceInterval from "@/components/ValueConfidenceInterval";
 import RiskLevelCard from "@/components/RiskLevelCard";
@@ -69,8 +69,21 @@ const propertyData = {
   ],
 };
 
+const toTitleCase = (str: string) => {
+  return str.toLowerCase().split(' ').map(function (word) {
+    return (word.charAt(0).toUpperCase() + word.slice(1));
+  }).join(' ');
+};
+
 const Dashboard = () => {
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const urlAddress = searchParams.get('address');
+
+  const currentAddress = urlAddress
+      ? toTitleCase(decodeURIComponent(urlAddress.replace(/\+/g, ' ')))
+      : toTitleCase(propertyData.address);
 
   const handleGoBack = () => {
     router.push("/");
@@ -94,7 +107,7 @@ const Dashboard = () => {
                     Fastighetsanalys
                   </h1>
                   <p className="text-sm text-muted-foreground">
-                    {propertyData.address}
+                    {currentAddress}
                   </p>
                 </div>
               </div>
