@@ -1,0 +1,2302 @@
+[
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a3f511b560a19fc655bab56c0fa51242e69c0e1929c2a3c2dfd6b828489f143d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 1 23:15 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 1 23:15",
+        "gata": "Street 1 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2958,
+        "uppm_floede_ls": 2864,
+        "sfp_kw_per_m3s": 1.67,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "070b68b82c819c2770624d0f5ffe75a84e6d6560a73e96824e9cfb3749c65c3b",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 1 183:93 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 1 183:93",
+        "gata": "Street 1 34",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2808,
+        "uppm_floede_ls": 2678,
+        "sfp_kw_per_m3s": 1.68,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b408a617c42878cc404dd8cee3430312182cabd0bc3beabd1cb389759503d0af",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 1 124:42 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 1 124:42",
+        "gata": "Street 1 27",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3181,
+        "uppm_floede_ls": 3040,
+        "sfp_kw_per_m3s": 1.51,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a4d7569bfb86617faed41edbbf2be01c11f75e5ee8764e720a229d74e0145d36",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 1 85:48 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 1 85:48",
+        "gata": "Street 1 9",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3054,
+        "uppm_floede_ls": 2903,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "09c0b68e034aeb32e8d5926cf94ca888439b0cc3f5ce32306bdbdc8c5aa1df8c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 1 120:7 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 1 120:7",
+        "gata": "Street 1 35",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3200,
+        "uppm_floede_ls": 3009,
+        "sfp_kw_per_m3s": 1.45,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "1e0d6353302e5f2c002f808259aca0f96a4258cc04cc7988c4ab9274d4e69606",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 2 147:20 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 2 147:20",
+        "gata": "Street 2 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2913,
+        "uppm_floede_ls": 2804,
+        "sfp_kw_per_m3s": 1.78,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "30472119c175d7faf6c72391c22ba6e3e4a9b74c4ef3904ab1c109af7f7a54fc",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 2 103:24 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 2 103:24",
+        "gata": "Street 2 29",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3001,
+        "uppm_floede_ls": 2930,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "0ab2b992d4eb6af157fe8ee0dcc6adfb60d6ca4f171dc3c2c882ef72c14ddd2f",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 2 146:32 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 2 146:32",
+        "gata": "Street 2 50",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3477,
+        "uppm_floede_ls": 3422,
+        "sfp_kw_per_m3s": 1.66,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b0e63243f6a37b02942971db907b625b3e3a65008124cf507f16e45d168fc4dd",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 2 136:99 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 2 136:99",
+        "gata": "Street 2 10",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2865,
+        "uppm_floede_ls": 2675,
+        "sfp_kw_per_m3s": 1.78,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "04940b01c2b08f0970ea98b15de7e7d6280287089d9036ed03db86523c9cb810",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 2 93:50 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 2 93:50",
+        "gata": "Street 2 4",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3326,
+        "uppm_floede_ls": 3224,
+        "sfp_kw_per_m3s": 1.62,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "f2cf3e9ea897af12b709d4a10b0be27148a043a4417c135a4d71deeb5ae8a661",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 3 10:77 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 3 10:77",
+        "gata": "Street 3 35",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3349,
+        "uppm_floede_ls": 3282,
+        "sfp_kw_per_m3s": 1.46,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "e6679f5219002e1e809190e025394758033ec7c430943fe5727edf2fd944ef3b",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 3 33:39 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 3 33:39",
+        "gata": "Street 3 8",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3387,
+        "uppm_floede_ls": 3333,
+        "sfp_kw_per_m3s": 1.77,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "ff069c96eb2cc2f8abbce006a04176cc37014f650dc44645763d88f3684e4b60",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 3 39:78 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 3 39:78",
+        "gata": "Street 3 43",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2887,
+        "uppm_floede_ls": 2699,
+        "sfp_kw_per_m3s": 1.76,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "811dafdbfce97096811deae274ead79fe442f814498083253277cb9773044f78",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 3 127:35 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 3 127:35",
+        "gata": "Street 3 15",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3089,
+        "uppm_floede_ls": 3004,
+        "sfp_kw_per_m3s": 1.77,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "92c1813d556451960a8dd40f6e90d4d03928dab152cb295f5594d43a84b04f45",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 3 175:79 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 3 175:79",
+        "gata": "Street 3 40",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2847,
+        "uppm_floede_ls": 2658,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "5a49408ec2f9c7de36867652db68474458757f248b77af581c4a24b0ef042967",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 4 63:23 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 4 63:23",
+        "gata": "Street 4 45",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3010,
+        "uppm_floede_ls": 2909,
+        "sfp_kw_per_m3s": 1.42,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "959166ca4e60870b0378ac368b9275351f0fb045e5145e335a6b0d03100f4268",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 4 117:26 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 4 117:26",
+        "gata": "Street 4 5",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3074,
+        "uppm_floede_ls": 2944,
+        "sfp_kw_per_m3s": 1.64,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "ee7c705d78c4df687bb018797f54f052dddd89baacdc6fb582cb20cc497a49d6",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 4 160:1 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 4 160:1",
+        "gata": "Street 4 42",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3215,
+        "uppm_floede_ls": 3085,
+        "sfp_kw_per_m3s": 1.61,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "15d7b9b1b42feeebc27b81c907ae2a931143bd92e15d8f3ac9d6fc6d95c2f29f",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 4 175:31 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 4 175:31",
+        "gata": "Street 4 8",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3409,
+        "uppm_floede_ls": 3249,
+        "sfp_kw_per_m3s": 1.41,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "f8b9a9fc2181d6a7ae8c7687c3d7ebdeca22b1a44a2f62176a985d8b8056b489",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 4 98:34 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 4 98:34",
+        "gata": "Street 4 43",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3476,
+        "uppm_floede_ls": 3304,
+        "sfp_kw_per_m3s": 1.56,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "6d66c60b530ff5d3fc4dfd4b9a13ebe3e626909e9601a5c76f9d7b54600e8f22",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 5 41:12 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 5 41:12",
+        "gata": "Street 5 47",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3280,
+        "uppm_floede_ls": 3140,
+        "sfp_kw_per_m3s": 1.56,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "6dbff9be86fea5a8ed429a7b5a38e46084535cdb1c20eb4702a37326b1fbd816",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 5 197:86 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 5 197:86",
+        "gata": "Street 5 14",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2892,
+        "uppm_floede_ls": 2724,
+        "sfp_kw_per_m3s": 1.63,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "77d066cdd2390f1d8bcdcbbe7de1cc0e7bc4da3205df89dde12f2b746e7d1b17",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 5 51:92 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 5 51:92",
+        "gata": "Street 5 8",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3191,
+        "uppm_floede_ls": 3040,
+        "sfp_kw_per_m3s": 1.78,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "fe86849fb5c8e0aadb7348f36553785ffce5827b0ea52c929768d71718e10316",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 5 125:56 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 5 125:56",
+        "gata": "Street 5 16",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3442,
+        "uppm_floede_ls": 3288,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "0a10350b5abdfc666bfdbf850841ae08b429e30c66db4df964a1fd3f4ac5c1a5",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 5 104:90 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 5 104:90",
+        "gata": "Street 5 19",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2871,
+        "uppm_floede_ls": 2671,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "5e7643deaacae726851f635de3918bc333656b6dfa1e0d05326ea40e1ab63f4d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 6 110:72 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 6 110:72",
+        "gata": "Street 6 29",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3070,
+        "uppm_floede_ls": 2911,
+        "sfp_kw_per_m3s": 1.48,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "6114e7ff7fb27419c65c2da657b71022ef6c62b77be345090f02f4a981caa1c0",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 6 55:14 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 6 55:14",
+        "gata": "Street 6 14",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3232,
+        "uppm_floede_ls": 3071,
+        "sfp_kw_per_m3s": 1.66,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "c11a2e2416d98f027cedd6ed2cfa2eaf8ab7f4b698d7a4b543af2f0cbc392bca",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 6 50:37 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 6 50:37",
+        "gata": "Street 6 31",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3253,
+        "uppm_floede_ls": 3105,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "44c1ad97cf9027c1b9073fe855b60731d5019a0a4c756576709b28f1639e1f2c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 6 186:13 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 6 186:13",
+        "gata": "Street 6 4",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2935,
+        "uppm_floede_ls": 2857,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b80a1d8a65c827e41b52b55ea515e95517276114e1d2d619f8110d55a2b900c0",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 6 76:29 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 6 76:29",
+        "gata": "Street 6 9",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3038,
+        "uppm_floede_ls": 2841,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "21575af0bf9710956fbabe55dac29b79b2a72495bf5c1dd7c9c776c6e2cbeb5c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 7 121:59 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 7 121:59",
+        "gata": "Street 7 8",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2978,
+        "uppm_floede_ls": 2926,
+        "sfp_kw_per_m3s": 1.76,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "44b762d58698ea4e4717d777b6c46de66d33e7989de65bb28b46a5c6fb382142",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 7 74:99 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 7 74:99",
+        "gata": "Street 7 12",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3364,
+        "uppm_floede_ls": 3188,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "e78490eff430b823c9cd56d5d255b1005deb9f094b3b0cfdf5c3381563f37d20",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 7 166:28 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 7 166:28",
+        "gata": "Street 7 41",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3319,
+        "uppm_floede_ls": 3143,
+        "sfp_kw_per_m3s": 1.75,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "9bdeaa35ef05890c0a4e976b648464c33de83b20b4f0df7ceaed720a9ab9dc0c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 7 76:38 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 7 76:38",
+        "gata": "Street 7 29",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3190,
+        "uppm_floede_ls": 3024,
+        "sfp_kw_per_m3s": 1.62,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "6219eba0ab1a1d369b6622f942a075e40ffb27cad58742be1d769d823cc1d854",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 7 49:23 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 7 49:23",
+        "gata": "Street 7 18",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3176,
+        "uppm_floede_ls": 3029,
+        "sfp_kw_per_m3s": 1.8,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "f2880b0b9b1ee4565e823a6762f8616e3f7f1759caf88753929175cc035ee5e3",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 8 16:36 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 8 16:36",
+        "gata": "Street 8 45",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3405,
+        "uppm_floede_ls": 3291,
+        "sfp_kw_per_m3s": 1.71,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "9ee2e20b5eb3133f3ac23539cc98fdc212bdab177455355e6a756666432e0284",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 8 2:84 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 8 2:84",
+        "gata": "Street 8 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3031,
+        "uppm_floede_ls": 2879,
+        "sfp_kw_per_m3s": 1.56,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4af23104b72d9d33e5616a23f4a1303f6971ce60d79c3be8a47a7fd3b429bc34",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 8 140:7 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 8 140:7",
+        "gata": "Street 8 50",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3498,
+        "uppm_floede_ls": 3440,
+        "sfp_kw_per_m3s": 1.58,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "c262f547418ae3c0ca5d8dbaa6020832684a99da5a5771fd7faf55e24dace983",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 8 6:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 8 6:85",
+        "gata": "Street 8 18",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3490,
+        "uppm_floede_ls": 3384,
+        "sfp_kw_per_m3s": 1.78,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4aaa78e49ed5a5f65654419435be5d299a6593affaab9d29555334b151d741b2",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 8 119:63 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 8 119:63",
+        "gata": "Street 8 35",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3482,
+        "uppm_floede_ls": 3402,
+        "sfp_kw_per_m3s": 1.77,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d39c4d2020f173bdffddeccb880191ab47d3a397d72a887cb0da4a608aaa952d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 9 57:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 9 57:85",
+        "gata": "Street 9 3",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3235,
+        "uppm_floede_ls": 3041,
+        "sfp_kw_per_m3s": 1.58,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "8b8edbfde4d5276ba5fe081b350dd9a7c3da7db2a6c116e44e358e374e6b718d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 9 129:13 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 9 129:13",
+        "gata": "Street 9 11",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3300,
+        "uppm_floede_ls": 3147,
+        "sfp_kw_per_m3s": 1.48,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "f74c7b4f10f92f74a3b16c80eb0b5a3708bb9a6e223745c7012eb15c3100029c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 9 47:43 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 9 47:43",
+        "gata": "Street 9 11",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3043,
+        "uppm_floede_ls": 2901,
+        "sfp_kw_per_m3s": 1.58,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d86f3460e2181ae6c3957b6347639ce32d1603bd74d06991e0d63b122b8e8c7d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 9 184:1 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 9 184:1",
+        "gata": "Street 9 24",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3333,
+        "uppm_floede_ls": 3219,
+        "sfp_kw_per_m3s": 1.43,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a90cc976adcfacfa21e67cc6c6a79d7d921ed9c775dfcee12f99ebc090cbdc0c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 9 23:91 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 9 23:91",
+        "gata": "Street 9 14",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2918,
+        "uppm_floede_ls": 2857,
+        "sfp_kw_per_m3s": 1.7,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "2fb64bbeddfbc5dab2de1564366c1f36209ada23b291cd526ef641d070b2b358",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 10 80:45 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 10 80:45",
+        "gata": "Street 10 6",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2886,
+        "uppm_floede_ls": 2774,
+        "sfp_kw_per_m3s": 1.78,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d02a1aa5f6dba787c16ebe99f782e13008f74c62f5e46c5ddec7125f4f1e84f1",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 10 172:89 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 10 172:89",
+        "gata": "Street 10 26",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3127,
+        "uppm_floede_ls": 2961,
+        "sfp_kw_per_m3s": 1.45,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "f8d4d3dfb8ff966b73d3a2cd303e5a3beebbfdab690663aba30e177cf49ef0f5",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 10 158:41 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 10 158:41",
+        "gata": "Street 10 16",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3005,
+        "uppm_floede_ls": 2943,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "cf95c37aae4751737d1a2dbc9c8c6cf917bdef72542778945832e4d7259a129d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 10 186:65 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 10 186:65",
+        "gata": "Street 10 42",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3492,
+        "uppm_floede_ls": 3391,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "367a5aa5a7139533d0a50b0df4dd7fc514c4db9878a889bc35385099f64da298",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 10 196:45 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 10 196:45",
+        "gata": "Street 10 19",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2922,
+        "uppm_floede_ls": 2868,
+        "sfp_kw_per_m3s": 1.42,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "22c83c1aa6a4beced35903b976b7d632d1f00933b02c4f199ec6fe21df3ae36d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 11 123:78 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 11 123:78",
+        "gata": "Street 11 9",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3333,
+        "uppm_floede_ls": 3230,
+        "sfp_kw_per_m3s": 1.51,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "216ea61f68630d86a407ba081babee59bc279678ed4a8d181dcd1a3e47b94ce1",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 11 115:14 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 11 115:14",
+        "gata": "Street 11 27",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3288,
+        "uppm_floede_ls": 3201,
+        "sfp_kw_per_m3s": 1.45,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "5909b3329dd475eeac9df65a82f92e7d9045497ccc8c7b8d00a44b5e2c8f5e6b",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 11 164:86 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 11 164:86",
+        "gata": "Street 11 30",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3007,
+        "uppm_floede_ls": 2884,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "87a2e62fae248acfaa569f14c9038727213091a5f0ab2a105846f0d2c0940794",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 11 172:59 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 11 172:59",
+        "gata": "Street 11 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2984,
+        "uppm_floede_ls": 2914,
+        "sfp_kw_per_m3s": 1.42,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "7884c1b7b0a0bb9b22b2270e9dd33c3914d3e66f0f955602332aa4ba9b93205d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 11 114:70 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 11 114:70",
+        "gata": "Street 11 34",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3434,
+        "uppm_floede_ls": 3365,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "91997774710180d8764941538c0ea3b6f2c71035c4d97da39ea24eb605a890a3",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 12 73:18 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 12 73:18",
+        "gata": "Street 12 15",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3499,
+        "uppm_floede_ls": 3316,
+        "sfp_kw_per_m3s": 1.77,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d28c3c038ebf7ec81bd28bc8ce14065cc1f4fea997640d9077cb783373deced1",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 12 50:88 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 12 50:88",
+        "gata": "Street 12 43",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3232,
+        "uppm_floede_ls": 3053,
+        "sfp_kw_per_m3s": 1.58,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "828b94082bb870708dc200baeba31f0796fe99829849b8edea0d46821e57aa67",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 12 150:33 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 12 150:33",
+        "gata": "Street 12 39",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3327,
+        "uppm_floede_ls": 3182,
+        "sfp_kw_per_m3s": 1.49,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "1e89d7df092aa02c815295c1905ee9162ccf3e6e9cdff7438ecd3f1f3a144bf8",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 12 67:20 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 12 67:20",
+        "gata": "Street 12 12",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3187,
+        "uppm_floede_ls": 3089,
+        "sfp_kw_per_m3s": 1.48,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "32bca80fc5b68a85f35531136892deb4798a251fb756e1e082978b6c9602f88e",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 12 48:15 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 12 48:15",
+        "gata": "Street 12 22",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3156,
+        "uppm_floede_ls": 3028,
+        "sfp_kw_per_m3s": 1.61,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "021124483f4df392511a1463a4bd19e614cac382d66f2bc1581c699ffe6cd3d3",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 13 18:62 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 13 18:62",
+        "gata": "Street 13 8",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3054,
+        "uppm_floede_ls": 2865,
+        "sfp_kw_per_m3s": 1.7,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "71854f47461020bc7751d947ec6e5d222f6f807e2ea9fc76c74dd9f208bc1561",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 13 134:8 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 13 134:8",
+        "gata": "Street 13 38",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2886,
+        "uppm_floede_ls": 2791,
+        "sfp_kw_per_m3s": 1.5,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4a92650ef90f20257968a35e40b46357c620dedef9a591b9a82e39ae0f392a78",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 13 148:6 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 13 148:6",
+        "gata": "Street 13 32",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3177,
+        "uppm_floede_ls": 3035,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "3ef898985c698933ead16fb59ce7d1fa1b190a6816fa4b377d6a844c1a1b5c7d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 13 115:95 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 13 115:95",
+        "gata": "Street 13 30",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3071,
+        "uppm_floede_ls": 2946,
+        "sfp_kw_per_m3s": 1.59,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "e55d4c6c40913e2018b14c8ec392c03bfa4ee2855dc4ccea0a441beeba196217",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 13 106:1 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 13 106:1",
+        "gata": "Street 13 44",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2806,
+        "uppm_floede_ls": 2623,
+        "sfp_kw_per_m3s": 1.73,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "7e04fe1fec3228b9d4c57e0356ac2f02e28ad6074902df5e133109a2563c5538",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 14 185:63 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 14 185:63",
+        "gata": "Street 14 50",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3118,
+        "uppm_floede_ls": 2928,
+        "sfp_kw_per_m3s": 1.49,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "cf3fa0dad4ec934c4d30c3a7949844ee8a6960db620e88e1ba839eab2a28c68f",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 14 41:57 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 14 41:57",
+        "gata": "Street 14 36",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3424,
+        "uppm_floede_ls": 3289,
+        "sfp_kw_per_m3s": 1.55,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "87d690f8110b4f4e18f0b01a8752541fc52f55425d400fad12450a6268c6ee28",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 14 40:20 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 14 40:20",
+        "gata": "Street 14 3",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3196,
+        "uppm_floede_ls": 3030,
+        "sfp_kw_per_m3s": 1.72,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "daa03c907575dbd2ac25ba831af07ab40473c538d32adbe01777e8c73223a16f",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 14 138:95 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 14 138:95",
+        "gata": "Street 14 1",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2851,
+        "uppm_floede_ls": 2679,
+        "sfp_kw_per_m3s": 1.7,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4ec1c13ded82cf88365c57d8e1baa4b4203ba117a0c9470b875035eef34abfb5",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 14 155:96 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 14 155:96",
+        "gata": "Street 14 21",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3430,
+        "uppm_floede_ls": 3230,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "52915837c2265d27109943b2f5f3351e54ef67154a2ce9f2478741c5ae762b0f",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 15 83:78 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 15 83:78",
+        "gata": "Street 15 17",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 2908,
+        "uppm_floede_ls": 2775,
+        "sfp_kw_per_m3s": 1.57,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "485e64b80a9abb1d1feb0f5307e4f07e00cc5cba94dec8d0793ffbde5b5692f8",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 15 176:42 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 15 176:42",
+        "gata": "Street 15 22",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3373,
+        "uppm_floede_ls": 3182,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d42f449140fdac060c98f4ff1375aaa45a6cb2a4e2b6428e0e1afed96c1dbf05",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 15 147:90 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 15 147:90",
+        "gata": "Street 15 24",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2882,
+        "uppm_floede_ls": 2689,
+        "sfp_kw_per_m3s": 1.51,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a86eb60c7b4d3e5820bd405b9b149908741174cc6b52f04df726381cd130b4b4",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 15 154:88 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 15 154:88",
+        "gata": "Street 15 48",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3404,
+        "uppm_floede_ls": 3317,
+        "sfp_kw_per_m3s": 1.46,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d71533313c67595c522b294de091f1de5ffab66544259a952f321fddb3978776",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 15 122:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 15 122:85",
+        "gata": "Street 15 15",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3485,
+        "uppm_floede_ls": 3391,
+        "sfp_kw_per_m3s": 1.77,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "c126fc07c4207373ff82263207f3b3c6f2cee35dfd6a73bbaded2f130862df80",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 16 67:89 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 16 67:89",
+        "gata": "Street 16 20",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3193,
+        "uppm_floede_ls": 3041,
+        "sfp_kw_per_m3s": 1.7,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "0687441e7c0ec30bcf36462b5a7d6b75f3f1f1f4326cba17d7f1494c64bf593b",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 16 90:9 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 16 90:9",
+        "gata": "Street 16 15",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3405,
+        "uppm_floede_ls": 3271,
+        "sfp_kw_per_m3s": 1.6,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "1fc9c967992863552e7f05c57ce9800c7f1ef82186f0b7056492452d56eb6e67",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 16 128:75 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 16 128:75",
+        "gata": "Street 16 23",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2818,
+        "uppm_floede_ls": 2696,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a4cbf53d34e0509d3723651c25f82cee59619f669a16161f8380f1b1e721019c",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 16 31:73 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 16 31:73",
+        "gata": "Street 16 9",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 2839,
+        "uppm_floede_ls": 2654,
+        "sfp_kw_per_m3s": 1.49,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "a74987285bef6e02e2c0c2abdcb3c766ff60e9535bd906b10208b3ea5922e856",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 16 100:18 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 16 100:18",
+        "gata": "Street 16 44",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2920,
+        "uppm_floede_ls": 2812,
+        "sfp_kw_per_m3s": 1.73,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "5a2d7836aec7eb4840559e135c2fb0f82361e96d9aa1c489854a553b654acdd4",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 17 35:76 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 17 35:76",
+        "gata": "Street 17 20",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3003,
+        "uppm_floede_ls": 2833,
+        "sfp_kw_per_m3s": 1.41,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b1f8dccbf7ff44c0ba4eba32c6322e3b502d4d5698a10686d93792cbabf8fb28",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 17 38:38 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 17 38:38",
+        "gata": "Street 17 25",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3085,
+        "uppm_floede_ls": 2912,
+        "sfp_kw_per_m3s": 1.48,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "26e608db226516698a6a1906149fea8585c046847a22bbf4cca5ea37f8abda80",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 17 97:19 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 17 97:19",
+        "gata": "Street 17 41",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2845,
+        "uppm_floede_ls": 2717,
+        "sfp_kw_per_m3s": 1.45,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "6b86556f0e8d4f20f6db489a29f59de74a9c73cd0844b5033d9b00921aa1fdd5",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 17 16:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 17 16:85",
+        "gata": "Street 17 17",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3194,
+        "uppm_floede_ls": 3085,
+        "sfp_kw_per_m3s": 1.67,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "32e49ebcffd24d2bad0ff2d5820878ef2bfecc5cad1d1611931181d39a632352",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 17 185:1 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 17 185:1",
+        "gata": "Street 17 21",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3426,
+        "uppm_floede_ls": 3271,
+        "sfp_kw_per_m3s": 1.55,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b8002121b0898e9aad362b55b2cd83d8ca07725da9afa99ab4cd5a07357db3f6",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 18 41:26 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 18 41:26",
+        "gata": "Street 18 13",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3457,
+        "uppm_floede_ls": 3387,
+        "sfp_kw_per_m3s": 1.57,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "c87b44b585ff5dc109c1f41beeb3c66e6900a494d9ed28e0d27f0c24567dee00",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 18 40:55 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 18 40:55",
+        "gata": "Street 18 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3362,
+        "uppm_floede_ls": 3265,
+        "sfp_kw_per_m3s": 1.47,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "e3ea66db46071e942738a8d20bffa722682ba3d338a391aab6aff453e085e932",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 18 93:63 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 18 93:63",
+        "gata": "Street 18 14",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3483,
+        "uppm_floede_ls": 3318,
+        "sfp_kw_per_m3s": 1.66,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4e1cb3d14bd39a86e2660980be23c8724de6129c074ce5d7b5202d69cdbe566d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 18 112:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 18 112:85",
+        "gata": "Street 18 35",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3374,
+        "uppm_floede_ls": 3259,
+        "sfp_kw_per_m3s": 1.57,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "cf1b22c01b7873d4ab8a3ded563639a7b9e12918c31c7675627fd1e2129ebb84",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 18 39:51 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 18 39:51",
+        "gata": "Street 18 7",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 3161,
+        "uppm_floede_ls": 3068,
+        "sfp_kw_per_m3s": 1.6,
+        "tilluft_filterklass": "ePM1 55%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "b0976833aea21d2d9db8cdbe34e71d6be9c471cc1bb6d3891ecac20dd04c3e67",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 19 15:93 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 19 15:93",
+        "gata": "Street 19 41",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3208,
+        "uppm_floede_ls": 3063,
+        "sfp_kw_per_m3s": 1.63,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "d3569257481b837b79a69f5dde57e03a6219bdcc5e28b1021e5f38d12848bdd9",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 19 139:85 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 19 139:85",
+        "gata": "Street 19 21",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2982,
+        "uppm_floede_ls": 2843,
+        "sfp_kw_per_m3s": 1.65,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "05925cfa7a75f0cb4ab87776693fbdf6d2d0fb476f3f9cdf2fe825bc3d209793",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 19 66:36 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 19 66:36",
+        "gata": "Street 19 23",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3442,
+        "uppm_floede_ls": 3353,
+        "sfp_kw_per_m3s": 1.56,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "801c5f7e81a7cee26e75f32068eccb2d0827483481c465f07438e64aeeff9860",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 19 197:24 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 19 197:24",
+        "gata": "Street 19 25",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX+VAV",
+        "proj_floede_ls": 2959,
+        "uppm_floede_ls": 2847,
+        "sfp_kw_per_m3s": 1.52,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "407d53ec0384d569333ce544e4fdb8208897b2ec8a4f4bf9db32e96f12a31a67",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 19 125:50 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 19 125:50",
+        "gata": "Street 19 48",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3076,
+        "uppm_floede_ls": 2989,
+        "sfp_kw_per_m3s": 1.51,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "4bc03f1f21df0a29db0f965b33cad30acf198ccce1530595dc13dd692fb652d4",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 20 28:22 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 20 28:22",
+        "gata": "Street 20 4",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT",
+        "proj_floede_ls": 3092,
+        "uppm_floede_ls": 2937,
+        "sfp_kw_per_m3s": 1.42,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "Plattvärmeväxlare"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "89f8bfe02768308e70d0f89b64bc0a99ebe48bce5d6310fe97ba189d6a1d3f32",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 20 57:46 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 20 57:46",
+        "gata": "Street 20 43",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 3188,
+        "uppm_floede_ls": 3060,
+        "sfp_kw_per_m3s": 1.55,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "3ab90bccd8beed56256eb6660124edc94c09271f544246e1140d243aaf7c61c8",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 20 49:16 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 20 49:16",
+        "gata": "Street 20 6",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3495,
+        "uppm_floede_ls": 3389,
+        "sfp_kw_per_m3s": 1.59,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 50%",
+        "återvinning_typ": "Roterande VVX"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "e5ecf197829117fb2fcd7a5f3e9f4527e93c07f8a1c2c01ea23cba6d20c1f26e",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 20 173:26 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 20 173:26",
+        "gata": "Street 20 23",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FT+VAV",
+        "proj_floede_ls": 3472,
+        "uppm_floede_ls": 3364,
+        "sfp_kw_per_m3s": 1.42,
+        "tilluft_filterklass": "ePM1 50%",
+        "frånluft_filterklass": "ePM10 55%",
+        "återvinning_typ": "None"
+      }
+    }
+  },
+  {
+    "ok": true,
+    "used_ocr": false,
+    "sha256": "afcf6b3f7762a75a7ce8c03841dac35c52bb1bdcb7fdc29950e7933b5288ee8d",
+    "raw_text_preview": "Fastighetsbeteckning: Stockholm Street 20 80:36 ...",
+    "parsed": {
+      "A_Blankett": {
+        "fastighetsbeteckning": "Stockholm Street 20 80:36",
+        "gata": "Street 20 40",
+        "postnr": "11122",
+        "ort": "Stockholm"
+      },
+      "E1": {
+        "systemtyp": "FTX",
+        "proj_floede_ls": 2805,
+        "uppm_floede_ls": 2717,
+        "sfp_kw_per_m3s": 1.44,
+        "tilluft_filterklass": "ePM1 60%",
+        "frånluft_filterklass": "ePM10 45%",
+        "återvinning_typ": "None"
+      }
+    }
+  }
+]
